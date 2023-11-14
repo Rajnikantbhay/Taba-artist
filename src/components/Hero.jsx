@@ -6,7 +6,7 @@ function Hero() {
 
 
   return (
-    <div className='' style={{background:"#19345F"}}>
+    <div >
       
       <Gallery/>
     </div>

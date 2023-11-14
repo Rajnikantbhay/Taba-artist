@@ -2,15 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
-
+import HomePage from './pages/HomePage';
+import WhatsappButton from './components/WhatsappButton';
 function App() {
   return (
 <>
 <Navbar/>
-
-<Hero/>
-
+<HomePage/>
+<WhatsappButton/>
 <Footer/>
 
 </>
