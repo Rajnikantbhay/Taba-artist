@@ -6,8 +6,19 @@ import Carousel from '../components/Carousel'
 function HomePage() {
   return (
     <div className='' style={{}}>
-      <Carousel/>
-      <Gallery/>
+
+
+
+
+       
+
+     <Carousel />
+
+
+
+     
+
+      <Gallery />
     </div>
   )
 }

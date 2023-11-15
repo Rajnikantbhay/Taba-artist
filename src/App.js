@@ -11,7 +11,7 @@ function App() {
 <>
 
 <Router>
-<Navbar/>
+{/* <Navbar/> */}
   <Routes>
 
     <Route index path='/' exact Component={HomePage} />

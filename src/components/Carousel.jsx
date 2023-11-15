@@ -3,11 +3,17 @@ import './Components.css'
 
 function Carousel() {
   return (
-    <div className='w-full m-auto h-screen'>
+    <div className='relative w-full m-auto h-screen'>
+
+
+<div className='absolute w-full opacity-50 h-screen bg-blue-300 z-30'> helloo</div>
       
 
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
+<div id="default-carousel" class="absolute w-full z-20" data-carousel="slide">
+
+
     <div class="relative h-screen overflow-hidden">
+
         
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
