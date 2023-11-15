@@ -2,11 +2,11 @@ import React from 'react'
 
 function Carousel() {
   return (
-    <div className='max-w-[90vw] m-auto mt-4 z-0'>
+    <div className='w-full m-auto z-0 h-screen'>
       
 
 <div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <div class="relative h-96 xl:h-[70vh] overflow-hidden rounded-lg md:h-96">
+    <div class="relative h-screen overflow-hidden">
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="https://images.unsplash.com/photo-1563697013858-7d658cdb639d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>

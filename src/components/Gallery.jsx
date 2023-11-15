@@ -2,6 +2,7 @@ import React from 'react'
 
 function Gallery() {
   return (
+    <section className='w-full bg-[#19345f] py-8' >
     <div className='max-w-[90vw] m-auto'>
       
 
@@ -53,6 +54,7 @@ function Gallery() {
 </div>
 
     </div>
+    </section>
   )
 }
 
