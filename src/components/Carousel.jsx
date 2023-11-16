@@ -6,36 +6,37 @@ function Carousel() {
     <div className='relative w-full m-auto h-screen'>
 
 
-<div className='absolute w-full opacity-50 h-screen bg-blue-300 z-30'> helloo</div>
+<div className='absolute z-30 text-white text-center' style={{left:'50%', top:'50%', transform:'translate(-50%, -50%)'}}>
+    <h2 className='text-8xl uppercase' style={{fontFamily:'Montserrat'}}>taba</h2>
+    <p className='uppercase'>The art by artist</p>
+</div>
       
 
 <div id="default-carousel" class="absolute w-full z-20" data-carousel="slide">
-
-
     <div class="relative h-screen overflow-hidden">
 
         
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
+            {/* <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
             </h2>
             <p className='text-sm'>The Art By Artist</p>
-            </div>
+            </div> */}
             <div id='gradient-overlay'></div>
             <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2FIMG_20230423_224504.jpg?alt=media&token=efd1860a-2db0-44e3-ac47-628c622e2f65" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
+            {/* <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
                 </h2>
                 <p className='text-sm'>The Art By Artist</p>
-            </div>
+            </div> */}
             <div id='gradient-overlay'></div>
             <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2FIMG_20230219_191645.jpg?alt=media&token=36b3ea2b-1911-4cb2-9cee-348ed728c8c0" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
+            {/* <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
                 </h2>
                 <p className='text-sm'>The Art By Artist</p>
-            </div>
+            </div> */}
             <div id='gradient-overlay'></div>
             <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2FIMG20210318134356.jpg?alt=media&token=61fe46f3-7b01-4e7f-9975-5b9f5bef3311" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>
