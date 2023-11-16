@@ -22,7 +22,7 @@ function Carousel() {
             <p className='text-sm'>The Art By Artist</p>
             </div> */}
             <div id='gradient-overlay'></div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2FIMG_20230423_224504.jpg?alt=media&token=efd1860a-2db0-44e3-ac47-628c622e2f65" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fcarousel%201.webp?alt=media&token=3ee80f99-790f-4106-87af-1cf488ecc731" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             {/* <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
@@ -30,7 +30,7 @@ function Carousel() {
                 <p className='text-sm'>The Art By Artist</p>
             </div> */}
             <div id='gradient-overlay'></div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2FIMG_20230219_191645.jpg?alt=media&token=36b3ea2b-1911-4cb2-9cee-348ed728c8c0" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fcarousel2.webp?alt=media&token=2aca87a4-dd67-4e68-bc17-9de45b248af4" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             {/* <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
@@ -38,7 +38,7 @@ function Carousel() {
                 <p className='text-sm'>The Art By Artist</p>
             </div> */}
             <div id='gradient-overlay'></div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2FIMG20210318134356.jpg?alt=media&token=61fe46f3-7b01-4e7f-9975-5b9f5bef3311" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fcarousel3.webp?alt=media&token=fc83739c-653b-4442-ac42-f8926bb387ca" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>
     </div>
     <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
