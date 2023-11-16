@@ -13,12 +13,8 @@ function App() {
 <Router>
 <Navbar/>
   <Routes>
-
     <Route index path='/' exact Component={HomePage} />
     <Route index path='/about' exact Component={About} />
-
-
-
 </Routes>
 </Router>
 <WhatsappButton/>

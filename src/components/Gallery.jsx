@@ -3,7 +3,7 @@ import React from 'react'
 function Gallery() {
   return (
     <section className='w-full bg-white py-8' >
-    <div className='max-w-[90vw] m-auto'>
+    <div className='m-auto'>
       
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">

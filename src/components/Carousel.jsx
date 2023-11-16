@@ -3,24 +3,19 @@ import './Components.css'
 
 function Carousel() {
   return (
-    <div className='relative w-full m-auto h-screen'>
-
-
+    <div className='relative w-full m-auto md:h-screen
+    '>
 <div className='absolute z-30 text-white text-center' style={{left:'50%', top:'50%', transform:'translate(-50%, -50%)'}}>
     <h2 className='text-8xl uppercase' style={{fontFamily:'Montserrat'}}>taba</h2>
     <p className='uppercase'>The art by artist</p>
 </div>
       
 
-<div id="default-carousel" class="absolute w-full z-20" data-carousel="slide">
+<div id="default-carousel" class="w-full z-20" data-carousel="slide">
     <div class="relative h-screen overflow-hidden">
 
         
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            {/* <div className='absolute z-20 text-center text-white' style={{left:'50%', transform:'translate(-50%, -50%)', top:'50%'}}><h2 className='uppercase text-9xl' style={{fontFamily:'Montserrat'}}>Taba
-            </h2>
-            <p className='text-sm'>The Art By Artist</p>
-            </div> */}
             <div id='gradient-overlay'></div>
             <img src="https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fcarousel%201.webp?alt=media&token=3ee80f99-790f-4106-87af-1cf488ecc731" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full object-cover" alt="..."/>
         </div>

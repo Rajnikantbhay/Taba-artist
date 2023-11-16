@@ -3,13 +3,9 @@ import logo from '../assests/companyLogo.png'
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-
-    const divStyle = {
-        backgroundColor: '#19345f',
-      };
   return (
-    <div className='fixed z-[999] w-full shadow-lg'>
-<nav className="bg-white dark:bg-gray-900 w-full top-0 start-0 " style={divStyle}>
+    <div className='fixed z-[999] w-full shadow-lg bg-red-400'>
+<nav className="bg-[#19345f] w-full ">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
   <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src={logo} className="h-16" alt="Taba artist"/>
