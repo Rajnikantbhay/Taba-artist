@@ -6,7 +6,6 @@ function HomePage() {
   return (
     <div>
       <Carousel/>
-      <TagLine/>
       <Gallery/>
     </div>
   )
