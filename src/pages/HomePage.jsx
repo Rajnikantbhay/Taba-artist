@@ -8,9 +8,6 @@ function HomePage() {
     <div>
       <Hero/>
       <Catalog/>
-      {/* 
-      <Gallery/>
-      <ArtCarousel /> */}
     </div>
   )
 }
