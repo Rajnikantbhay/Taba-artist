@@ -1,15 +1,17 @@
 import Gallery from '../components/Gallery'
-import Carousel from '../components/Carousel'
 import TagLine from '../components/TagLine'
 import ArtCarousel from '../components/artCarousel'
+import Hero from '../components/Hero'
+import Catalog from '../components/Project'
 
 function HomePage() {
   return (
     <div>
-      <Carousel/>
-      <TagLine/>
+      <Hero/>
+      <Catalog/>
+      {/* <TagLine/>
       <Gallery/>
-      <ArtCarousel />
+      <ArtCarousel /> */}
     </div>
   )
 }
