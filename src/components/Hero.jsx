@@ -9,7 +9,7 @@ function Hero () {
         <section className="flex w-full" style={{height:'90vh'}}>
             <div className='w-[60%]'>
                 <div className="bg-[#151316] w-full h-1/2 flex justify-center uppercase font-inter text-4xl tracking-wider py-12 text-white">
-                    <p className='leading-normal tracking-wider'><span className='font-fair text-8xl'>t</span>he <span className='text-blue-900 font-bold'><span className='font-fair text-8xl'>a</span>rt</span> <br/><span className='pl-32'><span className='font-fair text-8xl'>b</span>y <span className='text-blue-900 font-bold'><span className='font-fair text-8xl'>a</span>rtist</span></span></p>
+                    <p className='leading-normal tracking-wider'><span className='font-nosifer text-8xl'>t</span>he <span className='text-yellow-400 font-bold'><span className='font-nosifer text-8xl'>a</span>rt</span> <br/><span className='pl-32'><span className='font-nosifer text-8xl'>b</span>y <span className='text-yellow-400 font-bold'><span className='font-nosifer text-8xl'>a</span>rtist</span></span></p>
                 </div>
                 <div className="w-full h-1/2 flex">
                     <div style={{flex:'2'}} ><img src={Imgone} alt="" className='h-full w-full object-cover'/></div>

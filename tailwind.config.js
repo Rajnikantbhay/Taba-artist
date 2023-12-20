@@ -8,7 +8,8 @@ module.exports = {
       fontFamily:{
         'inter': ['Inter', 'sans-serif'],
         'italiana': ['Italiana', 'sans-serif'],
-        'fair': ['Playfair Display', 'sans-serif']
+        'fair': ['Playfair Display', 'sans-serif'],
+        'nosifer': ['Nosifer', 'sans-serif']
       },
       letterSpacing: {
         wider:'.4em',
