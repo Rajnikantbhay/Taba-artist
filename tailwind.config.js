@@ -12,6 +12,7 @@ module.exports = {
         'nosifer': ['Nosifer', 'sans-serif']
       },
       letterSpacing: {
+        wide:'.2em',
         wider:'.4em',
         widest: '.3em'
       }
