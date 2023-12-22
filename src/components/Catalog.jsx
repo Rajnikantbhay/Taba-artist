@@ -1,6 +1,3 @@
-import Button from '@mui/material/Button'
-import Stack from '@mui/material/Stack'
-
 function Catalog() {
   return (
     <section className="md:px-12 md:py-12 bg-black text-white w-full">
@@ -28,8 +25,6 @@ function Catalog() {
                     
                 </div>
             </div>
-           
-            
         </div>
     </section>
   );
