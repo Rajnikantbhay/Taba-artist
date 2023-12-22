@@ -1,6 +1,6 @@
 function Catalog() {
   return (
-    <section className="md:px-12 md:py-12 bg-black text-white w-full">
+    <section className="md:px-12 md:py-12 bg-transparent text-white w-full">
         <h1 className="text-left mb-12 font-nosifer md:text-5xl text-3xl tracking-wide">OUR <br className='md:hidden block'/> PROJECTS</h1>
         <div className="flex h-64 mb-20 border border-whit">
             <div className='w-3/5 h-full'>

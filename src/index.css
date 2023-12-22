@@ -20,6 +20,15 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+  background-image: url('../src/assests/moon.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+
+#root {
+  background-color: transparent;
 }
 
 .img-container{
@@ -37,6 +46,9 @@ body {
   background-image: url('../src/assests/moon.webp');
   background-size: contain;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
 }
 
 .mirror-image {

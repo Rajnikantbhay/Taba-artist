@@ -1,4 +1,5 @@
 import mainImg from '../assests/mainimg.webp'
+import Catalog from './Catalog';
 
 function Main() {
     return (
@@ -9,7 +10,7 @@ function Main() {
                     <img src={mainImg} alt="Taba artist" className='h-full left-0 absolute mirror-image' />
                 </div>
             </div>
-            <div className='w-3/5 h-full relative flex bg-black'>
+            <div className='w-3/5 h-full relative flex'>
                 <div className='md:ml-4 flex items-center'>
                 <h1 className='uppercase text-white font-redhat md:text-8xl md:tracking-wide '>
                     <span className='text-[#c9b594]'>T</span>he<br/>
@@ -21,6 +22,7 @@ function Main() {
                 </div>
                 <img src={mainImg} alt="Taba artist" className='h-full right-0 absolute' />
             </div>
+            {/* <Catalog/> */}
         </section>
     )
 }
