@@ -22,7 +22,6 @@ body {
   overflow-x: hidden;
   background-image: url('../src/assests/moon.webp');
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: transparent;
 }
