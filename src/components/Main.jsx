@@ -1,8 +1,8 @@
-import mainImg from '../assests/mainimg.webp'
+import mainImg from '../assests/mainimgsmoke.png'
 
 function Main() {
     return (
-        <section className='w-full moon bg-black flex h-[90vh]'>
+        <section className='w-full moon flex h-[90vh]'>
             <div className='flex-1 lg:block hidden'>
                 <div className='h-2/5'></div>
                 <div className='h-3/5  relative'>
