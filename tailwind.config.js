@@ -15,9 +15,15 @@ module.exports = {
         'redhat': ['Red Hat Display', 'sans-serif']
       },
       letterSpacing: {
-        wide:'.2em',
+        wide:'.1em',
         wider:'.4em',
         widest: '.3em'
+      },
+      lineHeight: {
+        '5': '11rem'
+      },
+      fontSize: {
+        '10xl': ['11rem']
       }
     },
   },
