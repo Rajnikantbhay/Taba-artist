@@ -44,3 +44,7 @@ body {
 .mirror-image {
   transform: scaleX(-1);
 }
+
+p{
+  font-family: 'inter', sans-serif;
+}

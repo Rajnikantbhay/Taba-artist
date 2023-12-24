@@ -5,11 +5,10 @@ function ContactPage() {
         <section class="bg-black lg:px-12  py-12">
     <div class="container px-6 mx-auto">
         <div>
-            {/* <p class="font-medium text-blue-500 ">Contact us</p> */}
 
             <h1 class="mt-2 text-2xl font-semibold text-yellow-100 md:text-4xl font-redhat">We're Eager to Connect: Let's Paint <br/>Your Ideas Together! 🎨✨</h1>
 
-            <p class="mt-3 text-gray-500 dark:text-gray-400">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
+            <p class="mt-3 text-gray-500 dark:text-gray-400 font-inter">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
         </div>
 
         <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
