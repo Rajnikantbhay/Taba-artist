@@ -12,11 +12,11 @@ function Team () {
                 <div className='flex gap-8 my-12 flex-wrap'>
                 <CardDefault/>
                 <CardDefault/>
-                <div className='flex-1 flex flex-col justify-center gap-y-12 items-center'>
+                {/* <div className='flex-1 flex flex-col justify-center gap-y-12 items-center'>
                     <img src={paintbucket} alt="" className='lg:w-24' />
                     <img src={paintsplash} alt="" className='lg:w-24' />
                     <img src={painttube} alt="" className='lg:w-24' />
-                </div>
+                </div> */}
                 </div>
                 <div className="w-full">
                     <HorizontalCard />

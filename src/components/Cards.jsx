@@ -4,30 +4,40 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Button,
+  Avatar,
+  Tooltip,
+  Button
 } from "@material-tailwind/react";
  
 export function CardDefault() {
   return (
-    <Card className="mt-6 w-96">
-      <CardHeader color="blue-gray" className="relative h-56">
+    <Card className="bg-black text-white max-w-[24rem] overflow-hidden">
+      <CardHeader
+        floated={false}
+        shadow={false}
+        color="transparent"
+        className="m-0 rounded-none"
+      >
         <img
-          src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-          alt="card-image"
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+          alt="ui/ux review check"
         />
       </CardHeader>
       <CardBody>
-        <Typography variant="h5" color="blue-gray" className="mb-2">
+        <Typography variant="h4" className="text-white font-outfit">
           UI/UX Review Check
         </Typography>
-        <Typography>
-          The place is close to Barceloneta Beach and bus stop just 2 min by
-          walk and near to &quot;Naviglio&quot; where you can enjoy the main
-          night life in Barcelona.
+        <Typography variant="lead" className="mt-3 font-normal text-gray-400">
+          Because it&apos;s about motivating the doers. Because I&apos;m here to
+          follow my dreams and inspire others.
         </Typography>
       </CardBody>
-      <CardFooter className="pt-0">
-        <Button>Read More</Button>
+      <CardFooter className="flex items-center justify-between">
+        <div className="flex items-center -space-x-3">
+        <Button variant="text" className="flex items-center gap-2 bg-[#eeeeee] text-black font-roboto hover:bg-gray-400">
+            Read more...
+          </Button>
+        </div>
       </CardFooter>
     </Card>
   );
@@ -35,7 +45,7 @@ export function CardDefault() {
 
 export function HorizontalCard() {
   return (
-    <Card className="w-full min-w-full flex-row">
+    <Card className="w-full bg-black min-w-full flex-row">
       <CardHeader
         shadow={false}
         floated={false}
@@ -48,20 +58,17 @@ export function HorizontalCard() {
         />
       </CardHeader>
       <CardBody>
-        <Typography variant="h6" color="gray" className="mb-4 uppercase">
-          startups
+        <Typography variant="h4" color="white" className="mb-4 font-outfit">
+          History about Taba
         </Typography>
-        <Typography variant="h4" color="blue-gray" className="mb-2">
-          Lyft launching cross-platform service this week
-        </Typography>
-        <Typography color="gray" className="mb-8 font-normal">
+        <Typography  className="mb-8 text-sm text-gray-400 font-outfit">
           Like so many organizations these days, Autodesk is a company in
           transition. It was until recently a traditional boxed software company
           selling licenses. Yet its own business model disruption is only part
           of the story
         </Typography>
         <a href="#" className="inline-block">
-          <Button variant="text" className="flex items-center gap-2">
+          <Button variant="text" className="flex items-center gap-2 bg-[#eeeeee] text-black font-roboto hover:bg-gray-400">
             Learn More
             <svg
               xmlns="http://www.w3.org/2000/svg"
