@@ -7,7 +7,7 @@ import {
   Button
 } from "@material-tailwind/react";
  
-export function CardDefault() {
+export function CardDefault({ButtonText}) {
   return (
     <Card className="bg-black text-white max-w-[24rem] overflow-hidden">
       <CardHeader
@@ -22,18 +22,17 @@ export function CardDefault() {
         />
       </CardHeader>
       <CardBody>
-        <Typography variant="h4" className="text-white font-outfit">
+        <Typography variant="h4" className="text-[#f1f1f1] font-outfit">
           UI/UX Review Check
         </Typography>
-        <Typography variant="lead" className="mt-3 font-normal text-gray-400">
-          Because it&apos;s about motivating the doers. Because I&apos;m here to
-          follow my dreams and inspire others.
+        <Typography className="mt-3 mb-0 font-inter font-normal text-sm text-[#aaaaaaa4]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam numquam nemo, fuga consequuntur distinctio suscipit aperiam sit vitae porro impedit odio doloremque dolore cum. Nostrum deleniti aperiam ipsa unde sed. 
         </Typography>
       </CardBody>
-      <CardFooter className="flex items-center justify-between">
+      <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
-        <Button variant="text" className="flex items-center gap-2 bg-[#eeeeee] text-black font-roboto hover:bg-gray-400">
-            Read more...
+        <Button variant="text" className="flex items-center  bg-[#eeeeee] text-black font-roboto hover:bg-gray-400">
+            {ButtonText}
           </Button>
         </div>
       </CardFooter>

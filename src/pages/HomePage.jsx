@@ -3,6 +3,7 @@ import Services from '../components/Services'
 import ContactPage from '../components/ContactPage'
 import Team from '../components/Team'
 import { Review } from '../components/Cards'
+import Projects from '../components/Projects'
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <Main/>
       <div>
       <Services/>
+      <Projects />
       <ContactPage/>
       <Team/>
       {/* <Review /> */}

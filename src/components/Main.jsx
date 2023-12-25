@@ -1,6 +1,21 @@
+import { useEffect, useState } from 'react';
 import mainImg from '../assests/mainimgsmoke.png'
 
 function Main() {
+    function getDimesion() {
+       return window.innerWidth
+    }
+    const [screenSize, setScreenSize] = useState(getDimesion());
+    useEffect(() => {
+        const updateDimension = () => {
+            setScreenSize(getDimesion())
+        }
+        window.addEventListener('resize', updateDimension)
+
+        return(() => {
+            window.removeEventListener('resize', updateDimension)
+        })
+    },[screenSize])
     return (
         <section className='w-full moon flex h-[90vh]'>
             <div className='flex-1 lg:block hidden'>
@@ -12,10 +27,10 @@ function Main() {
             <div className='lg:w-3/5 h-full  w-full relative sm:flex block'>
                 <div className='lg:ml-4 flex items-center ml-16 h-full'>
                 <h1 className='uppercase text-white font-redhat text-9xl sm:text-opacity-100 lg:tracking-wide tracking-normal z-50  '>
-                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>T</span><span className='sm:text-8xl text-6xl'>he</span><br/>
-                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>a</span><span className='sm:text-8xl text-6xl'>rt</span><br/>
-                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>b</span><span className='sm:text-8xl text-6xl'>y</span><br/>
-                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>a</span><span className='sm:text-8xl text-6xl'>rtist</span>
+                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>T</span><span className={`sm:text-8xl text-6xl ${screenSize < 350 ? 'hidden' : ''}`}>he</span><br/>
+                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>a</span><span className={`sm:text-8xl text-6xl ${screenSize < 350 ? 'hidden' : ''}`}>rt</span><br/>
+                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>b</span><span className={`sm:text-8xl text-6xl ${screenSize < 350 ? 'hidden' : ''}`}>y</span><br/>
+                    <span className='text-yellow-100 sm:text-opacity-100 drop-shadow-xl'>a</span><span className={`sm:text-8xl text-6xl ${screenSize < 350 ? 'hidden' : ''}`}>rtist</span>
                 </h1>
                 </div>
                 <div className=''>
