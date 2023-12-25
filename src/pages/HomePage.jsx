@@ -2,8 +2,7 @@ import Main from '../components/Main'
 import Services from '../components/Services'
 import ContactPage from '../components/ContactPage'
 import Team from '../components/Team'
-import { Review } from '../components/Cards'
-
+import Review from '../components/Review'
 function HomePage() {
   return (
     <div>
@@ -12,7 +11,7 @@ function HomePage() {
       <Services/>
       <ContactPage/>
       <Team/>
-      {/* <Review /> */}
+      <Review/>
       </div>
     </div>
   )
