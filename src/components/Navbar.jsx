@@ -26,11 +26,9 @@ function Navbar() {
       <li>
       <a href="/about" className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">About</a>
       </li>
+     
       <li>
-      <a href="#" className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Services</a>
-      </li>
-      <li>
-        <a href="#" className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Contact</a>
+        <a href="/contact" className="block py-2 px-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Contact</a>
       </li>
     </ul>
   </div>
