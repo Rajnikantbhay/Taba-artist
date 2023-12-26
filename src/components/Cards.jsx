@@ -4,12 +4,16 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Button
+  Button,
+  IconButton
 } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
  
-export function CardDefault({ButtonText}) {
+export function CardDefault({ButtonText, infoText, imgLink, title, id}) {
+
+  const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
-    <Card className="bg-black text-white max-w-[24rem] overflow-hidden">
+    <Card className="bg-black text-white max-w-[22rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 hover:scale-110">
       <CardHeader
         floated={false}
         shadow={false}
@@ -17,23 +21,25 @@ export function CardDefault({ButtonText}) {
         className="m-0 rounded-none"
       >
         <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+          src={imgLink}
           alt="ui/ux review check"
         />
       </CardHeader>
       <CardBody>
         <Typography variant="h4" className="text-[#f1f1f1] font-outfit">
-          UI/UX Review Check
+          {title}
         </Typography>
         <Typography className="mt-3 mb-0 font-inter font-normal text-sm text-[#aaaaaaa4]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam numquam nemo, fuga consequuntur distinctio suscipit aperiam sit vitae porro impedit odio doloremque dolore cum. Nostrum deleniti aperiam ipsa unde sed. 
+          {trimText}
         </Typography>
       </CardBody>
       <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
-        <Button variant="text" className="flex items-center  bg-[#eeeeee] text-black font-roboto hover:bg-gray-400">
-            {ButtonText}
-          </Button>
+        <Link to={`/ourwork/${id}`}>
+        <IconButton className="rounded-full">
+          {ButtonText}
+        </IconButton>
+        </Link>
         </div>
       </CardFooter>
     </Card>
