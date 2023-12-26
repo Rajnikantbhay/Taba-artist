@@ -1,47 +1,154 @@
-import React from 'react'
+import React from 'react';
+
+
+
+
+import Rectangle1 from '../components/Rectangle1';
+import Rectangle2 from '../components/Rectangle2';
+import Rectangle3 from '../components/Rectangle3';
+
+import image from '../assests/Rectangle1.svg'
 
 function About() {
   return (
-    <div className='flex flex-col xl:flex-row lg:flex-row '>
+    <div class="container my-24 mx-auto md:px-6">
 
-      <div className='bg-blue-200 '>
+<div className='text-center'>      
+<h1 class="mb-4 text-4xl font-extrabold  leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">About Taba</h1>
+<p class="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
 
-
-        <div className='m-4 image-box  min-h-[40vh] bg-black mt-4'>
-          hi
+</div>
+      <section class="mb-32 bg-white p-4 rounded-lg">
+        <img src="https://mdbcdn.b-cdn.net/img/new/slides/198.jpg"
+          class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
+    
+        <div class="mb-6 flex items-center">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (23).jpg" class="mr-2 h-8 rounded-full" alt="avatar"
+            loading="lazy" />
+          <div>
+            <span> Published <u>15.07.2020</u> by </span>
+            <a href="#!" class="font-medium">Anna Maria Doe</a>
+          </div>
         </div>
+    
+        <h1 class="mb-6 text-3xl font-bold">
+          An intriguing title for an interesting article
+        </h1>
+    
+        <p className='bg-white'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+          harum tempore cupiditate asperiores provident, itaque, quo ex iusto
+          rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
+          sapiente qui optio! Dignissimos harum quod culpa officiis suscipit
+          soluta labore! Expedita quas, nesciunt similique autem, sunt,
+          doloribus pariatur maxime qui sint id enim. Placeat, maxime labore.
+          Dolores ex provident ipsa impedit, omnis magni earum. Sed fuga ex
+          ducimus consequatur corporis, architecto nesciunt vitae ipsum
+          consequuntur perspiciatis nulla esse voluptatem quos dolorum delectus
+          similique eum vero in est velit quasi pariatur blanditiis incidunt
+          quam.
+        </p>
+      </section>
 
 
-        <div className='bg-blue-200  text-xl p-2 text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore eum, officiis quibusdam veritatis dolorum amet eveniet dolor expedita deserunt itaque tenetur possimus fugiat, distinctio laudantium repellat sunt delectus voluptatem. Rerum natus, harum nemo consequuntur laboriosam culpa assumenda, tempora tempore temporibus voluptas reprehenderit, odio ducimus id! Suscipit quo quia autem deserunt. Culpa quod libero esse cum odio fuga eveniet dolore ea tenetur enim assumenda, perspiciatis adipisci sunt accusantium pariatur? Repellendus tempora corporis suscipit veritatis exercitationem rerum nisi repellat molestiae, voluptate sint magni fugit assumenda, eveniet accusantium dolor impedit odit consequatur similique aliquid! Blanditiis, omnis iusto facere eveniet delectus totam aspernatur aut ea ducimus numquam, alias dolorum possimus tempore magni distinctio commodi deserunt reiciendis eum. Excepturi tenetur hic ipsa iste esse vel ducimus explicabo ipsum. Consectetur repellendus, architecto vero atque accusamus ducimus eaque velit? Quos dolores doloribus, iusto, aperiam voluptate odit expedita culpa amet, repellat vero nobis dignissimos quasi itaque modi error harum maiores ullam ipsa? Numquam cumque nemo porro. Ipsam beatae culpa placeat libero nobis vero aspernatur cupiditate harum illum accusamus soluta, labore eos, perspiciatis vel, quidem dolor! Dicta vero repellendus ipsum ut quas, voluptates tenetur ipsa accusantium voluptatibus, at suscipit? Enim excepturi vero optio cum eius autem unde neque a soluta quod facere accusantium explicabo incidunt rem ratione corporis, repellendus minus libero quas amet, suscipit alias! Eaque neque voluptatem iusto accusantium nam iure voluptate ullam ipsa magnam aut, deserunt sapiente soluta aliquid hic doloribus vero iste voluptatibus ipsum et voluptates. Facilis repudiandae odit, enim vero tempora aspernatur a voluptas, officiis itaque ab reprehenderit nobis repellat numquam et modi molestiae, quas obcaecati. Saepe, porro quisquam molestiae esse a recusandae. Enim saepe dignissimos voluptatibus laudantium dicta provident ea officia unde totam laborum nisi praesentium rerum natus quasi modi, molestias, deserunt recusandae? Voluptatibus, placeat? Magnam earum aliquid reiciendis illum repellendus, consectetur alias labore atque explicabo suscipit sequi soluta magni deserunt neque eius distinctio provident. Quod dolores consequuntur ipsum nobis blanditiis, cum harum repellendus, recusandae quidem nemo, beatae distinctio exercitationem et illo sunt eum corporis ipsa voluptatibus? Fugiat eligendi et dicta, sunt atque fugit nostrum dolores deleniti laudantium quae magni saepe expedita aliquam ipsam ipsa dolorem id itaque, animi soluta voluptatibus facere ratione! Quidem corporis quos nulla consectetur quis odio culpa magnam aperiam possimus magni libero provident cum laboriosam velit voluptatum, numquam esse vel, impedit, veritatis enim blanditiis! Excepturi eos sequi non? Dolore ducimus, at id nam rem quisquam? Cumque quaerat cupiditate dolores iste?</div>
-      </div>
 
-
-      <div>
-
-        <div className='bg-pink-400 text-xl p-2 text-center'>
-
-          <div className='m-4 image-box  min-h-[40vh] bg-black mt-4'>
-            hi
+<div class="container my-24 mx-auto md:px-6">
+  <section class="mb-32">
+    <div
+      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+          <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/088.jpg" alt="Trendy Pants and Shoes"
+            class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+        </div>
+        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="mb-4 text-2xl font-bold">
+              What's the secret of the great taste?
+            </h2>
+            <p class="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="mr-2 h-5 w-5">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+              </svg>
+              Hot news
+            </p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Earum maxime voluptas ipsam aliquam itaque cupiditate
+              provident architecto expedita harum culpa odit, inventore rem
+              molestias laborum repudiandae corporis pariatur quo eius iste!
+              Quaerat, assumenda voluptates! Molestias, recusandae? Maxime
+              fuga omnis ducimus.
+            </p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              Commodi ut nisi assumenda alias maxime necessitatibus ad rem
+              repellat explicabo, reiciendis illum suscipit iusto? Provident
+              dignissimos similique, reiciendis inventore accusantium unde
+              mollitia, deleniti quae atque error id perspiciatis illum.
+              Laboriosam aperiam ab illo dignissimos obcaecati corporis
+              similique a odio, optio iste quis placeat alias amet rerum
+              sint quos dolor pariatur inventore possimus ad consequuntur
+              fugiat perferendis consectetur laudantium.
+            </p>
           </div>
-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta id expedita, quaerat delectus ab optio nemo ducimus quos, doloribus obcaecati eum harum nesciunt incidunt aperiam? Dicta, enim molestias soluta ea rem facere corrupti blanditiis reiciendis alias harum, quis magnam quasi! Nemo vitae beatae alias officia ad consequuntur sed cupiditate debitis.</div>
-
-
-        <div className='bg-gray-200  text-xl p-2 text-center'>
-
-          <div className='m-4 image-box  min-h-[40vh] bg-black mt-4'>
-            hi
-          </div>
-
-
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime atque ea beatae voluptatum ut ex perferendis, fuga nisi incidunt architecto voluptatem eveniet dolore quam doloremque quas explicabo quo error. Sapiente repellat cupiditate aperiam exercitationem, commodi optio neque rerum id provident eum ea fugiat in, ab perspiciatis dolore maxime unde aspernatur consectetur nostrum aut est perferendis dolorem labore. Dignissimos, quia id quis ducimus iste blanditiis ea mollitia omnis eligendi error ratione magni beatae, accusamus doloremque facilis qui, molestiae repudiandae praesentium? Fuga itaque hic odit eius ducimus natus ipsa quo error iusto nisi qui rerum, nam odio ratione? Laborum vero autem voluptatem, dolores harum dolorem labore fuga odit pariatur itaque unde, est temporibus veritatis incidunt consequuntur soluta animi, provident corporis. Reiciendis expedita hic minus? Quaerat, cupiditate ratione odit eius sed distinctio suscipit tenetur nisi voluptas labore, itaque autem. Recusandae, consequuntur? Eos officia, rerum temporibus nemo voluptatum provident neque quae dicta similique voluptatibus repellendus alias aliquam sunt reiciendis soluta repudiandae maiores quidem et explicabo in nisi eius, modi incidunt. Veniam, repellendus, odit molestiae voluptatem labore sint blanditiis atque sit possimus voluptates cumque rerum voluptatum perferendis. Commodi, asperiores culpa libero eaque doloremque ipsam minima corrupti cupiditate. Sit illum ullam sed, earum molestias beatae qui!</div>
-
-
+        </div>
       </div>
-
-
     </div>
-  )
+  </section>
+</div>
+
+
+
+
+<div class="container my-24 mx-auto md:px-6 ">
+  <section class="mb-32 bg-white p-4 rounded-lg">
+    <div class="flex flex-wrap">
+      <div class="w-full shrink-0 grow-0 basis-auto md:w-2/12 lg:w-3/12">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).jpg"
+          class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="Avatar" />
+      </div>
+
+      <div class="w-full shrink-0 grow-0 basis-auto text-center md:w-10/12 md:pl-6 md:text-left lg:w-9/12">
+        <h5 class="mb-6 text-xl font-semibold">Anna Maria Doe</h5>
+        <ul class="list-inside mb-6 flex justify-center space-x-4 md:justify-start">
+          <a href="#!">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4"
+              fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+            </svg>
+          </a>
+          <a href="#!">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="h-4 w-4">
+              <path fill="currentColor"
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+            </svg>
+          </a>
+          <a href="#!">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="h-3.5 w-3.5">
+              <path fill="currentColor"
+                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+            </svg>
+          </a>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Distinctio est ab iure inventore dolorum consectetur? Molestiae
+          aperiam atque quasi consequatur aut? Repellendus alias dolor ad
+          nam, soluta distinctio quis accusantium!
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+    </div>
+  );
 }
 
-export default About
+export default About;

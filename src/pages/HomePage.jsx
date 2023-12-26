@@ -2,8 +2,8 @@ import Main from '../components/Main'
 import Services from '../components/Services'
 import ContactPage from '../components/ContactPage'
 import Team from '../components/Team'
-import { Review } from '../components/Cards'
-import Projects from '../components/Projects'
+import Review from '../components/Review'
+
 
 function HomePage() {
   return (
@@ -11,10 +11,10 @@ function HomePage() {
       <Main/>
       <div>
       <Services/>
-      <Projects />
+      {/* <Projects /> */}
       <ContactPage/>
       <Team/>
-      {/* <Review /> */}
+      <Review/>
       </div>
     </div>
   )

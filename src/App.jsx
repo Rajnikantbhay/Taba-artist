@@ -5,6 +5,7 @@ import Work from './pages/Work';
 import ProjectDetails from './pages/ProjectDetails';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
 function App() {
   return (
     <>
@@ -20,8 +21,6 @@ function App() {
           </Routes>
        
       </Layout>
-
-
       </Router> 
     </>
   );
