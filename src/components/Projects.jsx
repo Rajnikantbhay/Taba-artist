@@ -2,7 +2,7 @@ import { CardDefault } from "./Cards"
 import { IconButton }from "@material-tailwind/react"
 export default function Projects() {
     return (
-        <section className='w-full  py-12 lg:px-12 bg-black'>
+        <section className='w-full  py-12 lg:px-12'>
             <div className="container px-6">
             <h1 className='text-yellow-100 text-2xl mt-2 mb-8 lg:text-4xl font-redhat'>Discover our painted stories – where every project transforms spaces into artful masterpieces. Your vision, our canvas.</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

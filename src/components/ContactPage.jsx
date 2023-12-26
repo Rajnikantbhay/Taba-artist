@@ -1,14 +1,12 @@
-import Imgone from '../assests/taba1.webp'
-
 function ContactPage() {
     return (
-        <section class="bg-black lg:px-12  py-12">
+        <section class="lg:px-12  py-12">
     <div class="container px-6 mx-auto">
         <div>
 
             <h1 class="mt-2 text-2xl font-semibold text-yellow-100 md:text-4xl font-redhat">We're Eager to Connect: Let's Paint <br/>Your Ideas Together! 🎨✨</h1>
 
-            <p class="mt-3 text-gray-500 dark:text-gray-400 font-inter">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
+            <p class="mt-3 text-[#e6e6e6] font-inter">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
         </div>
 
         <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
@@ -20,8 +18,8 @@ function ContactPage() {
                         </svg>
                     </span>
 
-                    <h2 class="mt-4 text-base font-medium text-gray-800 ">Email</h2>
-                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                    <h2 class="mt-4 text-base font-bold text-gray-100">Email</h2>
+                    <p class="mt-2 text-sm text-[#e6e6e6] dark:text-gray-400">Our friendly team is here to help.</p>
                     <p class="mt-2 text-sm text-blue-500 ">hello@merakiui.com</p>
                 </div>
 
@@ -33,8 +31,8 @@ function ContactPage() {
                         </svg>
                     </span>
                     
-                    <h2 class="mt-4 text-base font-medium text-gray-800 ">Office</h2>
-                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                    <h2 class="mt-4 text-base font-bold text-gray-100">Office</h2>
+                    <p class="mt-2 text-sm text-[#e6e6e6] dark:text-gray-400">Come say hello at our office HQ.</p>
                     <p class="mt-2 text-sm text-blue-500 ">100 Smith Street Collingwood VIC 3066 AU</p>
                 </div>
 
@@ -45,37 +43,37 @@ function ContactPage() {
                         </svg>
                     </span>
                     
-                    <h2 class="mt-4 text-base font-medium text-gray-800 ">Phone</h2>
-                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <h2 class="mt-4 text-base font-bold text-gray-100">Phone</h2>
+                    <p class="mt-2 text-sm text-[#e6e6e6] ">Mon-Fri from 8am to 5pm.</p>
                     <p class="mt-2 text-sm text-blue-500 ">+1 (555) 000-0000</p>
                 </div>
             </div>
 
-            <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+            <div class="p-4 py-6 rounded-lg bg-[hsla(0,0%,100%,0.55)] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] md:p-8">
                 <form>
                     <div class="-mx-2 md:items-center md:flex">
                         <div class="flex-1 px-2">
-                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">First Name</label>
+                            <label class="block mb-2 text-sm text-black">First Name</label>
                             <input type="text" placeholder="John " class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
 
                         <div class="flex-1 px-2 mt-4 md:mt-0">
-                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Last Name</label>
+                            <label class="block mb-2 text-sm text-black">Last Name</label>
                             <input type="text" placeholder="Doe" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
                     </div>
 
                     <div class="mt-4">
-                        <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                        <label class="block mb-2 text-sm text-black">Email address</label>
                         <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
                     <div class="w-full mt-4">
-                        <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                        <label class="block mb-2 text-sm text-black">Message</label>
                         <textarea class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                     </div>
 
-                    <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                    <button class="w-full px-6 py-3 mt-4 text-sm font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                         Send message
                     </button>
                 </form>
