@@ -4,7 +4,7 @@ import commercialpaint from '../assests/commercial.svg'
 
 function Services() {
     return (
-        <section className="lg:px-12  py-12 bg-black">
+        <section className="lg:px-12  py-12">
           <div className='container px-6'>
           <h1 className='text-yellow-100 text-2xl my-2 lg:text-4xl font-redhat drop-shadow-xl drop-shadow-white'>Your All-in-One Painting Solution for <br/>Every Canvas Imaginable</h1>
           <div className='justify-center w-full text-gray-200 md:flex block items-center gap-4'>
