@@ -7,7 +7,7 @@ function Review() {
 	<div className="container px-6 py-12 mx-auto">
 		<div className="grid items-center gap-4 xl:grid-cols-5">
 			<div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-				<h2 className="text-6xl font-redhat text-yellow-100 font-extrabold">Reviews And Testimonials</h2>
+				<h2 className="text-4xl font-redhat text-yellow-100 font-extrabold">Reviews And Testimonials</h2>
 				<p className="dark:text-gray-400">Pri ex magna scaevola moderatius. Nullam accommodare no vix, est ei diceret alienum, et sit cetero malorum. Et sea iudico consequat, est sanctus adipisci ex.</p>
 			</div>
 			<div className="p-6 xl:col-span-3">
