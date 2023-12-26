@@ -1,13 +1,21 @@
-import Gallery from '../components/Gallery'
-import ArtCarousel from '../components/artCarousel'
-import Hero from '../components/Hero'
-import Catalog from '../components/Project'
+import Main from '../components/Main'
+import Services from '../components/Services'
+import ContactPage from '../components/ContactPage'
+import Team from '../components/Team'
+import Review from '../components/Review'
+
 
 function HomePage() {
   return (
     <div>
-      <Hero/>
-      <Catalog/>
+      <Main/>
+      <div>
+      <Services/>
+      {/* <Projects /> */}
+      <ContactPage/>
+      <Team/>
+      <Review/>
+      </div>
     </div>
   )
 }
