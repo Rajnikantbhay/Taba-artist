@@ -4,10 +4,10 @@ import commercialpaint from '../assests/commercial.svg'
 
 function Services() {
     return (
-        <section className="lg:px-12  py-12">
+        <section className="lg:px-12 py-12">
           <div className='container px-6'>
           <h1 className='text-yellow-100 text-2xl my-2 lg:text-4xl font-redhat drop-shadow-xl drop-shadow-white'>Your All-in-One Painting Solution for <br/>Every Canvas Imaginable</h1>
-          <div className='justify-center w-full text-gray-200 md:flex block items-center gap-4'>
+          <div className='grid grid-cols-1 sm:grid-cols-3 w-full text-gray-200 gap-4'>
             <div class=" max-w-sm rounded overflow-hidden bg-black shadow-gray-900 shadow-sm">
              <div className='w-full flex justify-start px-6 py-4'><img class="h-16 w-16" src={paintroller} loading='lazy' alt="icon of paint roller" /></div> 
   <div class="px-6 pb-4">

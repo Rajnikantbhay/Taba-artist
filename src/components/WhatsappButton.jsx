@@ -3,17 +3,17 @@ import React from 'react'
 function WhatsappButton() {
   return (
 
-    <a href='https://wa.me/message/L7TRJEJZ2YULK1' target='_blank' className="fixed bottom-8 right-4 z-50">
+    <a href='https://wa.me/message/L7TRJEJZ2YULK1' target='_blank' className="fixed top-16 right-4 z-50">
     <div>
       <button
   type="button"
   data-te-ripple-init
   data-te-ripple-color="light"
-  className="mb-2 fixed bottom-8 z-7 right-4 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-  style={{backgroundColor: "#ffffff"}}>
+  className="mb-2 fixed sm:bottom-4 bottom-0 z-7 right-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+  style={{backgroundColor: "#000000"}}>
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  className="h-7 w-7"
+  className="sm:h-7 sm:w-7 h-4 w-4"
   fill="currentColor"
   style={{color: "#128c7e"}}
   viewBox="0 0 24 24">
