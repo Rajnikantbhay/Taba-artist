@@ -7,7 +7,7 @@ function Layout({children}) {
     <div>
       <StickyNavbar/>
       {children}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
