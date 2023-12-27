@@ -1,6 +1,13 @@
+
+
+
+
 function ContactPage() {
     return (
         <section class="lg:px-12  py-12">
+
+
+
     <div class="container px-6">
         <div>
 
@@ -80,6 +87,12 @@ function ContactPage() {
             </div>
         </div>
     </div>
+
+
+
+
+
+    
 </section>
     );
 }
