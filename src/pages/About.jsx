@@ -11,31 +11,23 @@ import image from '../assests/Rectangle1.svg'
 
 function About() {
   return (
-    <div class="container my-24 mx-auto md:px-6">
+    <section className='py-12 lg:px-12'>
+    <div class="container px-6">
 
-<div className='text-center'>      
-<h1 class="mb-4 text-4xl font-extrabold  leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">About Taba</h1>
-<p class="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+<div>      
+<h1 class="lg:text-4xl text-2xl font-redhat text-yellow-100">About Taba</h1>
+<p class="mb-6 text-sm md:text-base text-[#f1f1f1]">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
 
 </div>
-      <section class="mb-32 bg-white p-4 rounded-lg">
+      <section class="lg:px-4 bg-black py-4 px-6 rounded-lg">
         <img src="https://mdbcdn.b-cdn.net/img/new/slides/198.jpg"
           class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
     
-        <div class="mb-6 flex items-center">
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (23).jpg" class="mr-2 h-8 rounded-full" alt="avatar"
-            loading="lazy" />
-          <div>
-            <span> Published <u>15.07.2020</u> by </span>
-            <a href="#!" class="font-medium">Anna Maria Doe</a>
-          </div>
-        </div>
-    
-        <h1 class="mb-6 text-3xl font-bold">
+        <h1 class="mb-2 text-3xl font-bold text-[#f1f1f1]">
           An intriguing title for an interesting article
         </h1>
     
-        <p className='bg-white'>
+        <p className='text-[#aaaaaa] lg:text-base text-sm'>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
           harum tempore cupiditate asperiores provident, itaque, quo ex iusto
           rerum voluptatum delectus corporis quisquam maxime a ipsam nisi
@@ -112,7 +104,7 @@ function About() {
           class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="Avatar" />
       </div>
 
-      <div class="w-full shrink-0 grow-0 basis-auto text-center md:w-10/12 md:pl-6 md:text-left lg:w-9/12">
+      <div class="w-full shrink-0 grow-0 basis-auto md:w-10/12 md:pl-6 md:text-left lg:w-9/12">
         <h5 class="mb-6 text-xl font-semibold">Anna Maria Doe</h5>
         <ul class="list-inside mb-6 flex justify-center space-x-4 md:justify-start">
           <a href="#!">
@@ -148,6 +140,7 @@ function About() {
   </section>
 </div>
     </div>
+    </section>
   );
 }
 

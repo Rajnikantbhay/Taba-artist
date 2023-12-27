@@ -1,6 +1,7 @@
 import paintroller from '../assests/interior.svg'
 import exteriorpaint from '../assests/exterior.svg'
 import commercialpaint from '../assests/commercial.svg'
+import { Link  } from 'react-router-dom';
 
 function Services() {
     return (
@@ -17,7 +18,7 @@ function Services() {
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-400">Book Now</button>
+    <Link  to={'/booknow'} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-400">Book Now</Link> 
   </div>
 </div>
 <div class=" max-w-sm rounded overflow-hidden bg-black shadow-gray-900 shadow-sm">
@@ -29,7 +30,7 @@ function Services() {
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-  <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-400">Book Now</button>
+  <Link to={'/booknow'} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-400">Book Now</Link> 
   </div>
 </div>
 <div class="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-black">
@@ -41,7 +42,7 @@ function Services() {
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-  <button class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-400">Book Now</button>
+  <Link to={'/booknow'} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-400">Book Now</Link> 
   </div>
 </div>
 </div>

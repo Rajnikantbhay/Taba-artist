@@ -28,19 +28,31 @@ export default function StcikyNavbar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal "
       >
-        <a href="/ourwork" className="flex items-center text-gray-400 font-redhat text-xl tracking-widest">
+        <a href="/ourwork" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           Our Work
         </a>
       </Typography>
+
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/about" className="flex items-center text-gray-400 font-redhat text-xl tracking-widest">
+        <a href="/booknow" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+          Book Now
+        </a>
+      </Typography>
+      
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="/about" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           About
         </a>
       </Typography>
@@ -50,16 +62,17 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/contact" className="flex items-center text-gray-400 font-redhat text-xl tracking-widest">
+        <a href="/contact" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           Contact
         </a>
       </Typography>
+      
     </ul>
   );
  
   return (
-      <Navbar className="sticky top-0 bg-black border-black z-[999] h-[10vh] max-w-full rounded-none px-0 pr-6">
-        <div className="w-full flex items-center justify-between h-full">
+      <Navbar className="sticky top-0 bg-black bg-opacity-100 shadow-none border-2 backdrop-blur-none backdrop-saturate-0 border-black z-[999] h-[10vh] max-w-full rounded-none px-0 pr-6">
+        <div className="w-full  flex items-center justify-between h-full">
           <Link to={'/'} className='flex'>
           <img src={logo} alt="logo of TABA" className='h-16' />
           <Typography
@@ -71,7 +84,7 @@ export default function StcikyNavbar() {
           </Typography>
           </Link>
           
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 ">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <IconButton
               variant="text"
