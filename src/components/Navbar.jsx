@@ -1,5 +1,5 @@
 
-import logo from '../assests/companyLogo.png'
+import logo from '../assests/companylogocropped.png'
 import { Link } from 'react-router-dom';
 
 import React from "react";
@@ -74,7 +74,7 @@ export default function StcikyNavbar() {
       <Navbar className="sticky top-0 bg-black bg-opacity-100 shadow-none border-2 backdrop-blur-none backdrop-saturate-0 border-black z-[999] h-[10vh] max-w-full rounded-none px-0 pr-6">
         <div className="w-full  flex items-center justify-between h-full">
           <Link to={'/'} className='flex'>
-          <img src={logo} alt="logo of TABA" className='h-16' />
+          <img src={logo} alt="logo of TABA" className='h-12 mr-2 md:ml-8 ml-4' />
           <Typography
             as="a"
             href="#"
