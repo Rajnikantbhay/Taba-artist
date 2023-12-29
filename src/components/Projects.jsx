@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default function Projects() {
     return (
         <section className='w-full  py-12 lg:px-12'>
-            <div className="container px-6">
+            <div className="container px-6 mx-auto">
             <h1 className='text-yellow-100 text-2xl mt-2 mb-8 lg:text-4xl font-redhat'>Discover our painted stories – where every project transforms spaces into artful masterpieces. Your vision, our canvas.</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 <CardDefault ButtonText={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
