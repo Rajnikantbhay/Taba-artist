@@ -8,7 +8,7 @@ function ContactPage() {
 
 
 
-    <div class="container px-6">
+    <div class="container px-6 mx-auto">
         <div>
 
             <h1 class="mt-2 text-2xl font-semibold text-yellow-100 md:text-4xl font-redhat">We're Eager to Connect: Let's Paint <br/>Your Ideas Together! 🎨✨</h1>

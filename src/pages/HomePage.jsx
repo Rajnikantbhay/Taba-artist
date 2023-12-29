@@ -8,7 +8,7 @@ import WhatsappButton from '../components/WhatsappButton'
 import { Brands } from '../components/Brands'
 function HomePage() {
   return (
-    <div>
+    <div >
       <WhatsappButton/>
       <Main/>
       <div>
