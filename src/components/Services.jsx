@@ -9,7 +9,7 @@ function Services() {
       <div className='container px-6 mx-auto'>
 
 
-        <div>
+        <div className='text-center'>
 
           <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white font-redhat md:text-5xl lg:text-6xl dark:text-white">We invest in the world’s potential</h1>
           <p class="mb-6 text-lg font-normal text-white lg:text-xl ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
@@ -71,7 +71,7 @@ function Services() {
           </div>
 
 
-          <div class="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-black">
+          <div class="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-black ">
             <div className='w-full flex justify-start px-6 py-4'><img class="h-16 w-16" src={commercialpaint} loading='lazy' alt="icon of paint palette" /></div>
             <div class="px-6 pb-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
