@@ -17,9 +17,9 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to})
       <CardHeader
         floated={false}
         shadow={false}
-        className="m-0 rounded-none bg-blue-400 h-1/2 w-full"
+        className="m-0 rounded-none  h-1/2 w-full"
       >
-        <div className="w-full h-full bg-yellow-400 ">
+        <div className="w-full h-full  ">
         <img
           src={imgLink}
           alt={alt}
