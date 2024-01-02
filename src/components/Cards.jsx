@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
  
-export function CardDefault({ButtonText, infoText, imgLink, title, id}) {
+export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to}) {
 
   const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
@@ -22,8 +22,9 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id}) {
         <div className="w-full h-full bg-yellow-400 ">
         <img
           src={imgLink}
-          alt="ui/ux review check"
+          alt={alt}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
         </div>
       </CardHeader>
@@ -37,7 +38,7 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id}) {
       </CardBody>
       <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
-        <Link to={`/ourwork/${id}`}>
+        <Link to={to}>
         <IconButton className="rounded-full">
           {ButtonText}
         </IconButton>

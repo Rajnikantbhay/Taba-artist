@@ -2,44 +2,6 @@ import React from 'react'
 import logo from '../assests/companylogocropped.png'
 import { ContactButton } from './HandleContact';
 import { EmailButton } from './HandleContact';
-// function Footer() {
-//   return (
-//     <div>
-      
-
-// <footer className="bg-white  shadow  " style={{background:"#19345F"}}>
-//     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-//         <div className="sm:flex sm:items-center sm:justify-between">
-//             <a href="https://flowbite.com/" className="flex items-center  sm:mb-0 space-x-3 rtl:space-x-reverse">
-//                 <img src={logo} className="h-14" alt="Flowbite Logo" />
-//                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TABA</span>
-//             </a>
-//             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-//                 <li>
-//                     <a href="#" className="hover:underline me-4 md:me-6">About</a>
-//                 </li>
-//                 <li>
-//                     <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
-//                 </li>
-//                 <li>
-//                     <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-//                 </li>
-//                 <li>
-//                     <a href="#" className="hover:underline">Contact</a>
-//                 </li>
-//             </ul>
-//         </div>
-//         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-//         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">TABA™</a>. All Rights Reserved.</span>
-//     </div>
-// </footer>
-
-
-//     </div>
-//   )
-// }
-
-// export default Footer
 import { Typography } from "@material-tailwind/react";
  
 const LINKS = [
@@ -53,7 +15,7 @@ const LINKS = [
   },
   {
     title: "Contact",
-    items:[{item:'+91-925-05-40198', href:<ContactButton phoneNumber={9250540198}/>} ,{item:'+91-892-02-37263', href:<ContactButton phoneNumber={8920237263}/>}, {item:'theartbyartist@gmail.com', href:<EmailButton email={`theartbyartist@gmail.com`}/>}],
+    items:[{item:'+91-9911-499221', href:<ContactButton phoneNumber={9911499221}/>} ,{item:'+91-9560-615712', href:<ContactButton phoneNumber={9560615712}/>}, {item:'art@taba.co.in', href:<EmailButton email={`art@taba.co.in`}/>}],
   },
 ];
  

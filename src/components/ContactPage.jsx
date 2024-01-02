@@ -5,9 +5,6 @@
 function ContactPage() {
     return (
         <section class="lg:px-12  py-12">
-
-
-
     <div class="container px-6 mx-auto">
         <div>
 
@@ -27,7 +24,7 @@ function ContactPage() {
 
                     <h2 class="mt-4 text-base font-bold text-gray-100">Email</h2>
                     <p class="mt-2 text-sm text-[#e6e6e6] dark:text-gray-400">Our friendly team is here to help.</p>
-                    <p class="mt-2 text-sm text-blue-500 ">hello@merakiui.com</p>
+                    <p class="mt-2 text-sm text-blue-500 ">art@taba.co.in</p>
                 </div>
 
                 <div className="bg-black py-4 px-4 rounded-lg">
@@ -40,7 +37,7 @@ function ContactPage() {
                     
                     <h2 class="mt-4 text-base font-bold text-gray-100">Office</h2>
                     <p class="mt-2 text-sm text-[#e6e6e6] dark:text-gray-400">Come say hello at our office HQ.</p>
-                    <p class="mt-2 text-sm text-blue-500 ">100 Smith Street Collingwood VIC 3066 AU</p>
+                    <p class="mt-2 text-sm text-blue-500 ">F-10/22 Ground floor near Moosa Apartment-Jogi Bai <br/>extension Jamiya nagar South Delhi 110025</p>
                 </div>
 
                 <div className="bg-black py-4 px-4 rounded-lg">
@@ -52,7 +49,7 @@ function ContactPage() {
                     
                     <h2 class="mt-4 text-base font-bold text-gray-100">Phone</h2>
                     <p class="mt-2 text-sm text-[#e6e6e6] ">Mon-Fri from 8am to 5pm.</p>
-                    <p class="mt-2 text-sm text-blue-500 ">+1 (555) 000-0000</p>
+                    <p class="mt-2 text-sm text-blue-500 ">+91-9911-499221, +91-9560-615712</p>
                 </div>
             </div>
 
