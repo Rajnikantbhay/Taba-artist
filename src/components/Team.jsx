@@ -5,7 +5,7 @@ function Team () {
     return (
         <section className='w-full py-12 lg:px-12'>
             <div className='container px-6 flex flex-col mx-auto'>
-                <h1 className="lg:text-4xl text-2xl text-yellow-100 font-redhat">Curious to know who we are? We're TABA, your premier destination for transformative painting solutions.</h1>
+                <h1 className="lg:text-4xl text-2xl text-white font-redhat">Curious to know who we are? We're TABA, your premier destination for transformative painting solutions.</h1>
                 <div className='flex gap-8 my-12 flex-wrap'>
 
                 <CardDefault to={`/about/#vikasmandal`} ButtonText={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

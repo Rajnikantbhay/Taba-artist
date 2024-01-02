@@ -13,17 +13,17 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to})
 
   const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
-    <Card className="bg-black text-white max-w-[22rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 hover:scale-110">
+    <Card className="bg-black text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 hover:scale-110">
       <CardHeader
         floated={false}
         shadow={false}
-        className="m-0 rounded-none  h-1/2 w-full"
+        className="m-0 rounded-none h-1/2 w-full"
       >
-        <div className="w-full h-full  ">
+        <div className="w-full h-full">
         <img
           src={imgLink}
           alt={alt}
-          className="w-full h-full object-cover"
+          className="h-full w-full object-cover"
           loading="lazy"
         />
         </div>

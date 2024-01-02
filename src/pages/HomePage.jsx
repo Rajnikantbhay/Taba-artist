@@ -5,7 +5,7 @@ import Team from '../components/Team'
 import Review from '../components/Review'
 import Projects from '../components/Projects'
 import WhatsappButton from '../components/WhatsappButton'
-import { Brands } from '../components/Brands'
+import Brands from '../components/Brands'
 function HomePage() {
   return (
     <div >

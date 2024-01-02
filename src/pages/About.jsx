@@ -14,7 +14,7 @@ function About() {
         element.scrollIntoView({behavior: 'smooth'})
       }
     }
-  })
+  },[])
   return (
     <section className='py-12 lg:px-12'>
     <div class="container px-6">
@@ -25,7 +25,7 @@ function About() {
 
 </div>
       <FounderComponent id={'mohammadzaid'} photo={ZaidPhoto} alt={'Mohammad Zaid'} name={'Mohammad Zaid'} title={'Sculpture dada'} icon={brushIcon} />
-      <FounderComponent id={'vikas'} photo={VikasPhoto} alt={'Vikas mandal'} name={'Vikas Mandal'} title={'Designer'} icon={paintTubbe} />
+      <FounderComponent id={'vikasmandal'} photo={VikasPhoto} alt={'Vikas mandal'} name={'Vikas Mandal'} title={'Designer'} icon={paintTubbe} />
     </div>
     </section>
   );

@@ -9,10 +9,9 @@ function Services() {
       <div className='container px-6 mx-auto'>
 
 
-        <div className='text-center'>
-
-          <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white font-redhat md:text-5xl lg:text-6xl dark:text-white">We invest in the world’s potential</h1>
-          <p class="mb-6 text-lg font-normal text-white lg:text-xl ">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+        <div>
+          <h1 class="mb-4 uppercase lg:text-4xl leading-none tracking-tight text-white font-redhat text-2xl">our services</h1>
+          <p class="mb-6 text-lg font-inter text-white lg:text-xl ">Here at Taba we focus on providing the best possible services.</p>
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full text-gray-200 gap-4'>

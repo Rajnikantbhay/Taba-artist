@@ -1,31 +1,29 @@
 import HomePage from './pages/HomePage';
 import Layout from './Layout';
-import About from './pages/About'
+import About from './pages/About';
 import Work from './pages/Work';
 import ProjectDetails from './pages/ProjectDetails';
 import Contact from './pages/Contact';
 import BookNowPage from './pages/BookNowPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   return (
     <>
-<Router>
-
-      <Layout>
-       
+      <Router>
+        <ScrollToTop />
+        <Layout>
           <Routes>
-            <Route index path='/' exact Component={HomePage} />
-            <Route index path='/about' exact Component={About} />
-            <Route index path='/contact' exact Component={Contact} />
-            <Route path='/ourwork' exact Component={Work} />
-            <Route path='/ourwork/:id' Component={ProjectDetails} />
-            <Route path='/booknow' Component={BookNowPage} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/ourwork" element={<Work />} />
+            <Route path="/ourwork/:id" element={<ProjectDetails />} />
+            <Route path="/booknow" element={<BookNowPage />} />
           </Routes>
-       
-      </Layout>
-      </Router> 
+        </Layout>
+      </Router>
     </>
   );
 }
