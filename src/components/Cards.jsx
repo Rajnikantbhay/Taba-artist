@@ -13,7 +13,7 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to})
 
   const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
-    <Card className="bg-black text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 hover:scale-110">
+    <Card className="bg-black text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-0">
       <CardHeader
         floated={false}
         shadow={false}

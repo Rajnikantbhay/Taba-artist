@@ -23,9 +23,9 @@ function Services() {
           <div class=" max-w-sm rounded overflow-hidden bg-black shadow-gray-900 shadow-sm">
             <div className='w-full flex justify-start px-6 py-4'><img class="h-16 w-16" src={paintroller} loading='lazy' alt="icon of paint roller" /></div>
             <div class="px-6 pb-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <div class="font-bold text-xl mb-2">Interior Design</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
@@ -40,9 +40,9 @@ function Services() {
           <div class=" max-w-sm rounded overflow-hidden bg-black shadow-gray-900 shadow-sm">
             <div className='w-full flex justify-start px-6 py-4'><img class="h-16 w-16" src={exteriorpaint} loading='lazy' alt="icon of paint palette" /></div>
             <div class="px-6 pb-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <div class="font-bold text-xl mb-2">Interior Design</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
@@ -59,9 +59,9 @@ function Services() {
           <div class="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-black">
             <div className='w-full flex justify-start px-6 py-4'><img class="h-16 w-16" src={commercialpaint} loading='lazy' alt="icon of paint palette" /></div>
             <div class="px-6 pb-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <div class="font-bold text-xl mb-2">Mural Art</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
@@ -73,9 +73,9 @@ function Services() {
           <div class="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-black ">
             <div className='w-full flex justify-start px-6 py-4'><img class="h-16 w-16" src={commercialpaint} loading='lazy' alt="icon of paint palette" /></div>
             <div class="px-6 pb-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <div class="font-bold text-xl mb-2">Graphic Design</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
