@@ -19,9 +19,9 @@ function Team () {
 
 
                 </div>
-                <div className="w-full">
+                {/* <div className="w-full">
                     <HorizontalCard />
-                </div>
+                </div> */}
             </div>
         </section>
     )

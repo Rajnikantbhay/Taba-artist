@@ -60,8 +60,8 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/contact" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
-          Contact
+        <a href="/map" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+          Map
         </a>
       </Typography>
       
