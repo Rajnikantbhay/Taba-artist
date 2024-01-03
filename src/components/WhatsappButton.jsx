@@ -3,7 +3,7 @@ import React from 'react'
 function WhatsappButton() {
   return (
 
-    <a href='https://wa.me/message/L7TRJEJZ2YULK1' target='_blank' className="fixed top-16 right-4 z-50">
+    <a href='https://wa.me/message/L7TRJEJZ2YULK1' rel='noreferrer' target='_blank' className="fixed top-16 right-4 z-50">
     <div>
       <button
   type="button"
@@ -13,7 +13,7 @@ function WhatsappButton() {
   style={{backgroundColor: "#000000"}}>
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  className="sm:h-7 sm:w-7 h-4 w-4"
+  className="sm:h-7 sm:w-7 h-6 w-6"
   fill="currentColor"
   style={{color: "#128c7e"}}
   viewBox="0 0 24 24">
