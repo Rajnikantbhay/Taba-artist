@@ -3,14 +3,14 @@ import {data} from '../data'
 import { Youtube } from '../components/Youtube';
 
 
-export default function ProjectDetails({match}) {
+export default function ProjectDetails() {
     const {id} = useParams();
     const cardId = parseInt(id, 10)
     console.log('id',id)
     const filteredData = data.find(filterDatafromdata => filterDatafromdata.id === cardId);
     console.log('filterdData ',filteredData);
     return (
-        <section className='w-full h-full py-12 lg:px-12 bg-black'>
+        <section className='w-full h-full py-12 lg:px-12 bg-black text-white'>
         <div className='container px-6 md:flex block'>
         <div className='w-full lg:w-3/5 md:px-6'>
             {filteredData.youtube !=='' ? <Youtube link={filteredData.youtube}/> : (<div><img src={filteredData?.img1} alt=''/></div>)}
@@ -23,10 +23,10 @@ export default function ProjectDetails({match}) {
             </div>
         </div>
             <div className='w-full  lg:flex-1 space-y-4'>
-                <div className='flex'><img loading='lazy' src={filteredData?.img2} alt="" /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img3} alt="" /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img4} alt="" /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img5} alt="" /></div>
+                <div className='flex'><img loading='lazy' src={filteredData?.img2} alt={filteredData.title + ' first painting'} /></div>
+                <div className='flex'><img loading='lazy' src={filteredData?.img3} alt={filteredData.title + ' second painting'} /></div>
+                <div className='flex'><img loading='lazy' src={filteredData?.img4} alt={filteredData.title + ' third painting'} /></div>
+                <div className='flex'><img loading='lazy' src={filteredData?.img5} alt={filteredData.title + ' fourth painting'} /></div>
             </div>
         </div>
     </section>
