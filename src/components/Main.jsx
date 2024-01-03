@@ -37,7 +37,7 @@ function Main() {
                 <img src={mainImg} alt="Taba artist" className='h-full object-cover right-0 top-0 absolute' />
                 </div>
             </div>
-            {/* <Catalog/> */}
+        
         </section>
     )
 }
