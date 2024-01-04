@@ -4,9 +4,8 @@ import secondLogo from '../assests/brands/2.svg'
 import thirdLogo from '../assests/brands/3.svg'
 import fourthLogo from '../assests/brands/4.svg'
 import fifthLogo from '../assests/brands/5.svg'
-import sixthLogo from '../assests/brands/6.svg'
 import seventhLogo from '../assests/brands/7.svg'
-import brahmaKumari from '../assests/brands/bramha.svg'
+
 
 function Brands() {
   return (

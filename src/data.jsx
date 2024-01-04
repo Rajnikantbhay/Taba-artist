@@ -256,3 +256,18 @@ export const teamData = [
   img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F7.webp?alt=media&token=f850e618-3571-4479-a2fd-3f3a560fdeb3'
 }
 ]
+
+export const graphicDesgignData = [
+  {
+    id:1,
+    title:'Graphic design',
+    img1:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F2.webp?alt=media&token=c85c2836-f42d-4d72-9724-3f44042dde78',
+    img2:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F1.webp?alt=media&token=60671c7e-41a4-4ed1-a78c-32e27e43f79a',
+    img3:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F3.webp?alt=media&token=a31c0229-e274-4839-8372-e1d277c7e95b',
+    img4:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F4.webp?alt=media&token=e4e91c21-7577-48a4-b50b-dcbffde70f87',
+    ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+      </svg>,
+
+  }
+]
