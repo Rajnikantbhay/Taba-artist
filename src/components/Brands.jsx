@@ -16,7 +16,7 @@ function Brands() {
         <div className=" lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] w-full mx-auto">
 
             <h1 className="text-2xl font-redhat leading-9 text-white lg:text-4xl mb-6">
-              Our Partnership
+              Our Partners
             </h1>
          
           <div className="lg:max-w-[1280px] rounded-full w-full bg-[hsla(0,0%,100%,0.55)] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] px-12 py-12 mx-auto">

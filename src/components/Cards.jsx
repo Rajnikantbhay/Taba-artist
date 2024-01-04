@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
  
-export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to}) {
+export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, name}) {
 
   const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
@@ -29,8 +29,9 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to})
         </div>
       </CardHeader>
       <CardBody>
-        <Typography variant="h4" className="text-[#f1f1f1] font-outfit">
+        <Typography variant="h4" className="text-[#f1f1f1] font-inter">
           {title}
+          <p className="text-sm font-roboto">{name}</p>
         </Typography>
         <Typography className="mt-3 mb-0 font-inter font-normal text-sm text-[#aaaaaaa4]">
           {trimText}

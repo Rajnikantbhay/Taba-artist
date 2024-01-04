@@ -222,7 +222,7 @@ export const teamData = [
 
 {id:2,
   name:'Irfan ali',
-  title:'',
+  title:'Designer',
   img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F3.webp?alt=media&token=ce0dfb90-a496-4d10-aeb9-ef3bc03ce3c8'
 },
 
@@ -240,19 +240,19 @@ export const teamData = [
 
 {id:5,
   name:'Naveen',
-  title:'',
+  title:'Designer',
   img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F2.webp?alt=media&token=639f0e93-3856-44df-ba83-c7b89918316c'
 },
 
 {id:6,
   name:'Sanjay Baghel',
-  title:'',
+  title:'All rounder',
   img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2FUntitled%20design%20(2).webp?alt=media&token=5c7260b6-760f-413b-86a6-8e5ce1fc3d17'
 },
 
 {id:7,
   name:'Sourav',
-  title:'',
+  title:'All rounder',
   img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F7.webp?alt=media&token=f850e618-3571-4479-a2fd-3f3a560fdeb3'
 }
 ]

@@ -9,7 +9,7 @@ const Team = () => {
         <p className="text-[#aaaaaa]">"Empowered by passion, driven by innovation – our team transforms challenges into opportunities with collaborative excellence.</p>
             <div className="my-8 flex flex-wrap gap-4 justify-start items-center">
                 {teamData.map(team => {
-                    return <CardDefault title={team.name} imgLink={team.img} ButtonText={''} />
+                    return <CardDefault title={team.name} imgLink={team.img} ButtonText={''} alt={team.name} name={team.title} />
                 })}
             </div>
             </div>
