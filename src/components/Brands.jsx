@@ -22,12 +22,12 @@ function Brands() {
             <div className="block lg:block md:hidden">
               <div className="flex flex-col items-center justify-center lg:justify-between lg:flex-row gap-x-8 gap-y-12">
                 
-                <BrandLogoComponent source={firstLogo}/>
+                <BrandLogoComponent source={firstLogo} sourceAlt={'Renukiran'}/>
                 <p className="border-r border-black lg:block hidden h-[30px] " />
-                <BrandLogoComponent source={secondLogo}/>
+                <BrandLogoComponent source={secondLogo} sourceAlt={'Martini'}/>
                
                 <p className="border-r border-black lg:block hidden h-[30px]" />
-                <BrandLogoComponent source={thirdLogo}/>
+                <BrandLogoComponent source={thirdLogo} sourceAlt={'Belita Design'} />
                 {/* <svg
                   width={100}
                   height={20}
@@ -81,7 +81,7 @@ function Brands() {
                     fill="#1F2937"
                   />
                 </svg> */}
-                <BrandLogoComponent source={fourthLogo}/>
+                <BrandLogoComponent source={fourthLogo} sourceAlt={'Cozy Cafe'} />
                 <p className="border-r border-black lg:block hidden h-[30px]" />
                 {/* <svg
                   width={101}
@@ -127,7 +127,7 @@ function Brands() {
                     </clipPath>
                   </defs>
                 </svg> */}
-                <BrandLogoComponent source={fifthLogo}/>
+                <BrandLogoComponent source={fifthLogo} sourceAlt={'Adwait'} />
                 <p className="border-r border-black lg:block hidden h-[30px]" />
                 {/* <svg
                   width={101}
@@ -141,7 +141,7 @@ function Brands() {
                     fill="#1F2937"
                   />
                 </svg> */}
-                <BrandLogoComponent source={seventhLogo}/>
+                <BrandLogoComponent source={seventhLogo} sourceAlt={'GD salwan school'} />
               </div>
             </div>
             <div className="hidden lg:hidden md:block ">
