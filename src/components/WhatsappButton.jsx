@@ -10,7 +10,7 @@ function WhatsappButton() {
   data-te-ripple-init
   data-te-ripple-color="light"
   className="mb-2 fixed sm:bottom-4 bottom-0 z-7 right-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-  style={{backgroundColor: "#000000"}}>
+  style={{backgroundColor: "#ffffff"}}>
 <svg
   xmlns="http://www.w3.org/2000/svg"
   className="sm:h-7 sm:w-7 h-6 w-6"

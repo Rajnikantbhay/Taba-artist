@@ -8,6 +8,7 @@ import {
   MobileNav,
   Typography,
   IconButton,
+  Collapse,
 } from "@material-tailwind/react";
  
 export default function StcikyNavbar() {
@@ -21,7 +22,7 @@ export default function StcikyNavbar() {
   }, []);
  
   const navList = (
-    <ul className="md:bg-transparent bg-black right-0 md:static absolute w-full px-4 py-4  mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="lg:bg-transparent bg-black right-0 md:static absolute w-full px-4 py-4  mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
