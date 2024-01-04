@@ -13,7 +13,7 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to})
 
   const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
-    <Card className="bg-black text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
+    <Card className="bg-black border border-white text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
       <CardHeader
         floated={false}
         shadow={false}
@@ -38,11 +38,12 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to})
       </CardBody>
       <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
-        <Link to={to}>
+          {ButtonText !== '' ? <Link to={to}>
         <IconButton className="rounded-full">
           {ButtonText}
         </IconButton>
-        </Link>
+        </Link> : '' }
+       
         </div>
       </CardFooter>
     </Card>

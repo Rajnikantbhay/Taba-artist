@@ -1,5 +1,4 @@
 import React from 'react'
-import mapSvg from '../assests/mapmissing.svg'
 
 function Contact() {
   return (

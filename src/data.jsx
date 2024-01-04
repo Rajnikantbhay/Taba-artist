@@ -210,3 +210,49 @@ export const data = [
 },
 
 ]
+
+
+
+export const teamData = [
+  {id:1,
+  name:'Anurag',
+  title:'Base King',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F1.webp?alt=media&token=75c9c202-459e-4a7b-94ba-303b288972a8'
+},
+
+{id:2,
+  name:'Irfan ali',
+  title:'',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F3.webp?alt=media&token=ce0dfb90-a496-4d10-aeb9-ef3bc03ce3c8'
+},
+
+{id:3,
+  name:'Aakash',
+  title:'Base King',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F5.webp?alt=media&token=8d426d0f-fcad-48e8-a68d-e6c9bdd16903'
+},
+
+{id:4,
+  name:'Abdul Qadir',
+  title:'All rounder',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F4.webp?alt=media&token=e4c84e5a-2629-43de-98cf-6dc48c0e38a2'
+},
+
+{id:5,
+  name:'Naveen',
+  title:'',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F2.webp?alt=media&token=639f0e93-3856-44df-ba83-c7b89918316c'
+},
+
+{id:6,
+  name:'Sanjay Baghel',
+  title:'',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2FUntitled%20design%20(2).webp?alt=media&token=5c7260b6-760f-413b-86a6-8e5ce1fc3d17'
+},
+
+{id:7,
+  name:'Sourav',
+  title:'',
+  img:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F7.webp?alt=media&token=f850e618-3571-4479-a2fd-3f3a560fdeb3'
+}
+]

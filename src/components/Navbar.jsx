@@ -8,7 +8,6 @@ import {
   MobileNav,
   Typography,
   IconButton,
-  Collapse,
 } from "@material-tailwind/react";
  
 export default function StcikyNavbar() {
@@ -55,6 +54,18 @@ export default function StcikyNavbar() {
           About
         </a>
       </Typography>
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="/team" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+          Team
+        </a>
+      </Typography>
+
       <Typography
         as="li"
         variant="small"

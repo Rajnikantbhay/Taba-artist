@@ -1,7 +1,7 @@
 import Main from '../components/Main'
 import Services from '../components/Services'
 import ContactPage from '../components/ContactPage'
-import Team from '../components/Team'
+import Founders from '../components/Founder'
 import Review from '../components/Review'
 import Projects from '../components/Projects'
 import Brands from '../components/Brands'
@@ -14,7 +14,7 @@ function HomePage() {
       <Projects />
       <Brands />
       <ContactPage/>
-      <Team/>
+      <Founders/>
       <Review/>
       </div>
     </div>
