@@ -49,7 +49,7 @@ export default function Footer() {
                       className="py-1 font-inter text-sm text-[#aaaaaa] transition-colors hover:text-blue-gray-100"
                     >
                       {typeof link.href !== 'string' ? link.href : link.item} 
-                      {console.log(link.href)}
+      
                     </Typography>
                   </li>
                 ))}
