@@ -8,7 +8,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAD-cafe-project%2FIMG-20231229-WA0133.webp?alt=media&token=1874cdc9-d647-4b15-ae93-d4f38d0ef90e',
         youtube:'',
         title:'AD Cafe',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -24,7 +24,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0101.webp?alt=media&token=56633e5c-6a85-48f0-8479-9659d5305e16',
         youtube:'',
         title:'Adwait 2.0',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -39,7 +39,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG_20230219_201916.webp?alt=media&token=4f3903a2-2116-4025-a37a-392c018a230f',
         youtube:'',
         title:'BharatRam',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -54,7 +54,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0104.webp?alt=media&token=54ec83bc-bc04-422d-ad1c-bf4d8510237a',
         youtube:'',
         title:'Brahma Kumari',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -69,7 +69,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210723.webp?alt=media&token=e0c765bb-1c08-487f-a5d5-c2303a8e1bff',
         youtube:'',
         title:'Martini Cafe',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -84,7 +84,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0118.webp?alt=media&token=85a27a74-9d5b-4f2e-ae79-f4b9628dcd7d',
         youtube:'',
         title:'Adwait',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -99,7 +99,7 @@ export const data = [
         img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_174736651.webp?alt=media&token=1e43b13b-08b3-4520-9ff1-fe88e66032ea',
         youtube:'',
         title:'Akbari Gate',
-        infoText:'hello there i am teaching coding to you so please pay attention',
+        infoText:'Know more about the project by clicking on the info icon',
         ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg>,
@@ -114,7 +114,7 @@ export const data = [
       img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230417_072748.webp?alt=media&token=68448104-0768-4667-9e0a-3ef5d124ec46',
       youtube:'',
       title:'Allen',
-      infoText:'hello there i am teaching coding to you so please pay attention',
+      infoText:'Know more about the project by clicking on the info icon',
       ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
       <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
     </svg>,
@@ -129,7 +129,7 @@ export const data = [
     img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FartEffect-project%2FIMG-20231106-WA0065.webp?alt=media&token=68b01820-ace1-4356-b205-e0df0bbecd2b',
     youtube:'',
     title:'Art Effect',
-    infoText:'hello there i am teaching coding to you so please pay attention',
+    infoText:'Know more about the project by clicking on the info icon',
     ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
     <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
   </svg>,
@@ -144,7 +144,7 @@ export const data = [
   img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG20230205152503.webp?alt=media&token=7dbc5a88-b0e2-42e5-9fae-d0f18a2a73bc',
   youtube:'',
   title:'Cosy Cafe',
-  infoText:'hello there i am teaching coding to you so please pay attention',
+  infoText:'Know more about the project by clicking on the info icon',
   ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
 </svg>,
@@ -158,7 +158,7 @@ export const data = [
   img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20210327164329.webp?alt=media&token=de58edbf-ac4d-487a-b7f1-5db101c9e3ad',
   youtube:'',
   title:'Promocare',
-  infoText:'hello there i am teaching coding to you so please pay attention',
+  infoText:'Know more about the project by clicking on the info icon',
   ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
 </svg>,
@@ -173,7 +173,7 @@ export const data = [
   img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG_20231104_142146.webp?alt=media&token=54b971c6-b3c9-4571-864f-c56d4e55e68f',
   youtube:'',
   title:'Renukiran Foundation',
-  infoText:'hello there i am teaching coding to you so please pay attention',
+  infoText:'Know more about the project by clicking on the info icon',
   ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
 </svg>,
@@ -188,7 +188,7 @@ export const data = [
   img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0015.webp?alt=media&token=7b4cb0bd-34ac-46c8-a2cd-b954b7af7f45',
   youtube:'',
   title:'Sambharya Foundation',
-  infoText:'hello there i am teaching coding to you so please pay attention',
+  infoText:'Know more about the project by clicking on the info icon',
   ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
 </svg>,
@@ -203,7 +203,7 @@ export const data = [
   img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20180903_193907.webp?alt=media&token=88d20135-e826-4748-8c51-d73d56e63130',
   youtube:'',
   title:'School of Excellence',
-  infoText:'hello there i am teaching coding to you so please pay attention',
+  infoText:'Know more about the project by clicking on the info icon',
   ButtonText: <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" Name="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
 </svg>,
