@@ -8,7 +8,7 @@ import youtube from '../assests/youtube.svg'
 const LINKS = [
   {
     title: "Our Work",
-    items: [{item:'Wall Art', href:'/ourwork'}],
+    items: [{item:'Wall Art', href:'/ourwork#muralart'}, {item:'Graphic Design', href:'/ourwork#graphicwork'}, {item:'Sculptures', href:''}],
   },
   {
     title: "Company",
@@ -25,7 +25,7 @@ const currentYear = new Date().getFullYear();
 export default function Footer() {
   return (
     <footer className="relative w-full bg-black pt-5 ">
-      <div className="mx-auto w-full max-w-7xl md:px-8 px-4">
+      <div className="mt-auto mx-auto w-full max-w-7xl md:px-8 px-4">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 font-redhat text-yellow-100 flex items-center">
             <img src={logo} alt="logo of Taba" className='w-8 mr-2' />
@@ -37,7 +37,7 @@ export default function Footer() {
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="mb-3 font-outfit text-[#f1f1f1] text-base md:text-xl font-base"
+                  className="mb-3 font-inter text-[#f1f1f1] text-base md:text-xl font-base"
                 >
                   {title}
                 </Typography>
@@ -46,7 +46,7 @@ export default function Footer() {
                     <Typography
                       as={link.href ? 'a' : 'div'}
                       href={typeof link.href === 'string' ? link.href : undefined}
-                      className="py-1 font-roboto text-sm text-[#aaaaaa] transition-colors hover:text-blue-gray-100"
+                      className="py-1 font-inter text-sm text-[#aaaaaa] transition-colors hover:text-blue-gray-100"
                     >
                       {typeof link.href !== 'string' ? link.href : link.item} 
                       {console.log(link.href)}
@@ -60,7 +60,7 @@ export default function Footer() {
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-white md:mb-0"
+            className="mb-4 text-center font-inter text-white md:mb-0"
           >
             &copy; {currentYear} <a href="https://material-tailwind.com/">TABA</a>. All
             Rights Reserved.

@@ -18,22 +18,10 @@ export const FounderComponent = ({photo, alt, about, name ,title, icon, iconAlt,
               {title}
             </p>
             <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Earum maxime voluptas ipsam aliquam itaque cupiditate
-              provident architecto expedita harum culpa odit, inventore rem
-              molestias laborum repudiandae corporis pariatur quo eius iste!
-              Quaerat, assumenda voluptates! Molestias, recusandae? Maxime
-              fuga omnis ducimus.
+              Will be update soon...
             </p>
             <p class="text-neutral-500 dark:text-neutral-300">
-              Commodi ut nisi assumenda alias maxime necessitatibus ad rem
-              repellat explicabo, reiciendis illum suscipit iusto? Provident
-              dignissimos similique, reiciendis inventore accusantium unde
-              mollitia, deleniti quae atque error id perspiciatis illum.
-              Laboriosam aperiam ab illo dignissimos obcaecati corporis
-              similique a odio, optio iste quis placeat alias amet rerum
-              sint quos dolor pariatur inventore possimus ad consequuntur
-              fugiat perferendis consectetur laudantium.
+              
             </p>
           </div>
         </div>
