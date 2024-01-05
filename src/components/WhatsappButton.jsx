@@ -3,12 +3,13 @@ import React from 'react'
 function WhatsappButton() {
   return (
 
-    <a href='https://wa.me/message/L7TRJEJZ2YULK1' rel='noreferrer' target='_blank' className="fixed top-16 right-4 z-50">
+    <a aria-label='whatsapp icon' href='https://wa.me/message/L7TRJEJZ2YULK1' rel='noreferrer' target='_blank' className="fixed top-16 right-4 z-50">
     <div>
       <button
   type="button"
   data-te-ripple-init
   data-te-ripple-color="light"
+  aria-label="whatsapp"
   className="mb-2 fixed sm:bottom-4 bottom-0 z-7 right-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
   style={{backgroundColor: "#ffffff"}}>
 <svg

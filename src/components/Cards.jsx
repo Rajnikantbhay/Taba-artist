@@ -40,7 +40,7 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, 
       <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
           {ButtonText !== '' ? <Link to={to}>
-        <IconButton className="rounded-full">
+        <IconButton aria-label="know more" className="rounded-full">
           {ButtonText}
         </IconButton>
         </Link> : '' }
