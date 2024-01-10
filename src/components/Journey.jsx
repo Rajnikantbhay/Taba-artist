@@ -2,7 +2,7 @@ import paintTube from '../assests/painttubeabout.svg'
 
 function Journey() {
   return (
-    <section className="shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] w-full bg-[hsla(0,0%,100%,0.55)] px-6 py-6 rounded-lg">
+    <section className="shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] w-full bg-[hsla(0,0%,100%,1)] px-6 py-6 rounded-lg">
       <ol class="relative border-s border-gray-200 ">
         <li class="mb-10 ms-6">
           <span class="absolute flex items-center justify-center bg-blue-100 rounded-full -start-3 ring-8 ring-white">

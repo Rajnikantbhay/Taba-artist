@@ -2,7 +2,7 @@ export const FounderComponent = ({photo, alt, about, name ,title, icon, iconAlt,
    return <div class="container my-12" id={id}>
   <section >
     <div
-      class="block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] w-full bg-[hsla(0,0%,100%,0.55)]">
+      class="block rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] w-full bg-[hsla(0,0%,100%,1)]">
       <div class="flex flex-wrap">
         <div class="basis-auto lg:flex lg:w-6/12 xl:w-4/12">
           <img src={photo} alt={alt}
