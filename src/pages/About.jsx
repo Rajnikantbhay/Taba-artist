@@ -23,10 +23,10 @@ function About() {
           <h1 class="lg:text-4xl text-2xl font-redhat text-yellow-100">
             About Taba
           </h1>
-          <p class="mb-6 text-sm md:text-base text-[#f1f1f1]">
+          {/* <p class="mb-6 text-sm md:text-base text-[#f1f1f1]">
             Here at Flowbite we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
-          </p>
+          </p> */}
           <Journey/>
         </div>
         <FounderComponent
