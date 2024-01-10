@@ -47,11 +47,11 @@ export const data = [
 
     {
         id:4,
-        img1:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG20230219185459.webp?alt=media&token=de6b9b21-69fc-45df-b8fa-96652b803fa0',
+        img1:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0128.webp?alt=media&token=8087927d-593b-47e7-a2dd-568adcdd0f72',
         img2:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0097.webp?alt=media&token=49d5aa22-7812-470d-a658-d3d173a669c8',
         img3:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0098.webp?alt=media&token=525bb61d-dca3-41d0-8c54-8497c96b183d',
         img4:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0104.webp?alt=media&token=54ec83bc-bc04-422d-ad1c-bf4d8510237a',
-        img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0104.webp?alt=media&token=54ec83bc-bc04-422d-ad1c-bf4d8510237a',
+        img5:'https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0102.webp?alt=media&token=83e575bb-5bee-4684-864b-8b3b93d7e513',
         youtube:'',
         title:'Brahma Kumari',
         infoText:'Know more about the project by clicking on the info icon',
