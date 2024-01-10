@@ -8,6 +8,8 @@ import {
   MobileNav,
   Typography,
   IconButton,
+  Select,
+  Option
 } from "@material-tailwind/react";
  
 export default function StcikyNavbar() {
