@@ -8,7 +8,7 @@ function Review() {
 		<div className="grid items-center gap-4 xl:grid-cols-5">
 			<div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
 				<h2 className="text-4xl xl:text-6xl font-redhat text-white">Reviews And Testimonials</h2>
-				<p className="dark:text-gray-400">Read what have to say about us!!</p>
+				<p className="dark:text-gray-400">Read what people have to say about TABA!!</p>
 			</div>
 			<div className="p-6 xl:col-span-3">
 				<div className="grid gap-4 md:grid-cols-2">
