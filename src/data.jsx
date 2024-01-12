@@ -116,7 +116,7 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     youtube: "",
     title: "Brahma Kumari",
     cardtext: "Initiated in September 2021, bloomed into peaceful, calm fear for women's meditation in kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture paintings in the environment and contributing to harmony.",
-    info: (<div>Initiated in September 2021, bloomed into peaceful, calm atmosphere r for women&#39;s meditation in
+    info: (<div>Initiated in September 2021, bloomed into peaceful, calm atmosphere for women&#39;s meditation in
       kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture
       paintings in the environment and contributing to harmony.</div>),
     ButtonText: (
@@ -297,7 +297,7 @@ of swan and whale arts connecting and reuniting art and nature.</p>
       <p>Monumental art forms were also performed at the KVS and JNU Headquarters, prominent monuments
 structures like the Red fort and Qutub minar.</p>
 <br/>
-<p>Sport related theme art forms were performed at DPS Noida Headquarters, where various art forms
+<p>Sports related theme art forms were performed at DPS Noida Headquarters, where various art forms
 related to sports like chess was innovatively showcased.</p>
 <br/>
 <p>Vibrant bird Murals also adorning the parking and sport related art forms were also done at Noida
@@ -363,10 +363,10 @@ visually appealing.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20210327164329.webp?alt=media&token=de58edbf-ac4d-487a-b7f1-5db101c9e3ad",
     youtube: "",
     title: "Promocare",
-    cardtext: "Sir as a witness for artistic work performed from January to April 2021, inan Singh and beautifying the pillars at New Setu, Janak Setu. Art work contributed to addition of champ to the environment and culture of Allahabad.",
+    cardtext: "Sir as a witness for artistic work performed from January to April 2021, beautifying the pillars at New Setu, Janak Setu. Art work contributed to addition of champ to the environment and culture of Allahabad.",
     info: (<div>
       <p>
-      It stand as a witness for artistic work performed from January to April 2021, inan Singh and beautifying
+      It stand as a witness for artistic work performed from January to April 2021, beautifying
 the pillars at New Setu, Janak Setu. Art work contributed to addition of charm to the environment and
 culture of Allahabad.
       </p>
