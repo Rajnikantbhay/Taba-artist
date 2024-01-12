@@ -22,7 +22,7 @@ export default function Work() {
                 </>
                 <div  className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8'>
                 {data.map((item) => {
-                   return <CardDefault alt={item.title} to={`/ourwork/muralarts/${item.id}`} key={item.id} id={item.id} ButtonText={item.ButtonText} title={item.title} infoText={item.infoText} imgLink={item?.img1}/>
+                   return <CardDefault alt={item.title} to={`/ourwork/muralarts/${item.id}`} key={item.id} id={item.id} ButtonText={item.ButtonText} title={item.title} infoText={item.cardtext} imgLink={item?.img1}/>
                 })}
                 </div>
                 <div id='graphicwork'>

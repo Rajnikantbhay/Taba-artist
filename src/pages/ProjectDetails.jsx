@@ -15,10 +15,9 @@ export default function ProjectDetails() {
             <div className="font-redhat text-3xl tracking-wide my-4">
                 <h1 className="text-white">{filteredData.title}</h1>
             </div>
-            {/* <div>
-                <p className="text-[#aaaaaa]">
-                    {filteredData.infoText}</p>
-            </div> */}
+            <>
+                    {filteredData.info}
+            </>
         </div>
             <div className='w-full  lg:flex-1 space-y-4'>
                 <div className='flex'><img loading='lazy' src={filteredData?.img2} alt={filteredData.title + ' first painting'} /></div>
