@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
  
-export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, name}) {
+export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, name, Knowmore}) {
 
   const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
   return (
@@ -40,9 +40,9 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, 
       <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
           {ButtonText !== '' ? <Link to={to}>
-        <IconButton aria-label="know more" className="rounded-full">
-          {ButtonText}
-        </IconButton>
+        <Button aria-label="know more" className="flex items-center gap-2">
+          Know more{' '}{ButtonText}
+        </Button>
         </Link> : '' }
        
         </div>
