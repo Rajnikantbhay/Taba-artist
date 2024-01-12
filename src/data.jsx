@@ -75,7 +75,7 @@ portrait of Bhagat Singh and blending art with culture and historical significan
 
   {
     id: 3,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG20230217185917.webp?alt=media&token=72064a67-d8d1-4416-ace9-d454ad852d7d",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FUntitled%20design%20(5)%20(1).webp?alt=media&token=45c54841-8854-498c-8bc6-5ccee71b22e6",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG20230218191056.webp?alt=media&token=75cbb3b3-b5a0-4182-94bd-ba15789d58ae",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG20230218191107.webp?alt=media&token=1f883b67-1ee9-4d4a-8b27-ae38584c9cbc",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG_20230219_201900.webp?alt=media&token=d5c394c4-4ba9-4438-8603-4df5d8489324",

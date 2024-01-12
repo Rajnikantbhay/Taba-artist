@@ -17,7 +17,7 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, 
       <CardHeader
         floated={false}
         shadow={false}
-        className="m-0 rounded-none h-1/2 w-full"
+        className="m-0 rounded-none w-full h-3/4"
       >
         <div className="w-full h-full">
         <img
@@ -28,14 +28,14 @@ export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, 
         />
         </div>
       </CardHeader>
-      <CardBody>
+      <CardBody className="h-1/4">
         <Typography variant="h4" className="text-[#f1f1f1] font-inter">
           {title}
           <p className="text-sm font-inter">{name}</p>
         </Typography>
-        <Typography className="mt-3 mb-0 font-inter font-normal text-sm text-[#aaaaaaa4]">
+        {/* <Typography className="mt-3 mb-0 font-inter font-normal text-sm text-[#aaaaaaa4]">
           {trimText}
-        </Typography>
+        </Typography> */}
       </CardBody>
       <CardFooter className="flex pt-0 items-center justify-between">
         <div className="flex items-center -space-x-3">
