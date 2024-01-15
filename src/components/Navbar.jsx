@@ -30,9 +30,9 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal "
       >
-        <a href="/ourwork" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+        <Link to="/ourwork" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           Our Work
-        </a>
+        </Link>
       </Typography>
 
       <Typography
@@ -41,9 +41,9 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/booknow" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+        <Link to="/booknow" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           Book Now
-        </a>
+        </Link>
       </Typography>
       
       <Typography
@@ -52,9 +52,9 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/about" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+        <Link to="/about" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           About
-        </a>
+        </Link>
       </Typography>
 
       <Typography
@@ -63,9 +63,9 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/team" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+        <Link to="/team" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           Team
-        </a>
+        </Link>
       </Typography>
 
       <Typography
@@ -74,9 +74,9 @@ export default function StcikyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/map" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
+        <Link to="/map" className="flex items-center hover:text-gray-100 text-gray-400 font-redhat text-xl tracking-widest">
           Map
-        </a>
+        </Link>
       </Typography>
       
     </ul>
