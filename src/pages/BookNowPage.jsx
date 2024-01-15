@@ -102,16 +102,6 @@ export default function BookNowPage() {
           </Button>
         </form>
       </div>
-
-
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='lg:h-auto lg:w-[50vw] p-4 w-[100vw] h-[70vh]'
-      >
-        <EarthCanvas />
-      </motion.div>
-
-      <StarsCanvas/>
     </section>
   );
 }
