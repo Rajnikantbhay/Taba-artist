@@ -95,13 +95,6 @@ function Journey() {
            <time class="underline block mb-2  font-inter leading-none text-black  text-lg">
             Mohammad Zaid
           </time>
-          <p class="text-base font-inter text-gray-900 ">
-            In the tapestry of Mohammed Zaid’s journey, the first threads were
-            woven in the world of textiles. Immersed in the intricate patterns
-            of his uncle’s textile shop, Zaid absorbed the nuances of the trade.
-            The dream of opening his own textile shop took shape, fueled by the
-            wealth of knowledge acquired in those colorful aisles.
-          </p>
           <br />
           <p class="text-base font-inter text-gray-900 ">
             In the tapestry of Mohammed Zaid’s journey, the first threads were
