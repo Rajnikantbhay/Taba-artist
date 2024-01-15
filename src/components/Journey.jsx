@@ -15,14 +15,14 @@ function Journey() {
            
           <div class="mb-4 text-base font-inter text-gray-900 ">
             <p>
-              In the kaleidoscopic world of school, Mohammed Zaid and Vikash
+              In the kaleidoscopic world of school, Mohammed Zaid and Vikas
               Mandal weren’t just students; they were the artistic architects of
               every annual function and the rebels behind every avant- garde
               project. Their passion for art wasn’t a quiet flame; it was a
               wildfire that danced through the hallways, leaving a trail of
               color and creativity. Imagine a duo so enamoured with art that
               they turned every school event into a canvas of possibilities.
-              Zaid and Vikash weren’t just participants; they were maestros
+              Zaid and Vikas weren’t just participants; they were maestros
               orchestrating visual symphonies. Their teachers weren’t mere
               educators; they were mentors, recognizing the spark of brilliance
               and fanning it into a blaze.
@@ -38,7 +38,7 @@ function Journey() {
             <br />
             <p>
               From the vivid halls of school to the dynamic landscape of
-              college, Zaid and Vikash’s journey wasn’t just a timeline; it was
+              college, Zaid and Vikas’s journey wasn’t just a timeline; it was
               a rollercoaster of passion, color, and unbridled creativity.
               Teachers became allies, peers became fans, and every stroke of
               their artistic journey paved the way for the captivating
@@ -58,11 +58,11 @@ function Journey() {
           <div class="text-base font-inter text-gray-900 ">
             <p>
               In the age of pixels and screens, the artistic souls of Mohammed
-              Zaid and Vikash Mandal converged to birth a vision – a website
+              Zaid and Vikas Mandal converged to birth a vision – a website
               that transcends geographical confines, inviting a global audience
               into the intricacies of their craft. This digital haven wasn’t
               merely a portfolio display; it emerged from a deliberate response
-              to the evolving art world. Zaid and Vikash, discerning the
+              to the evolving art world. Zaid and Vikas, discerning the
               distortion of authenticity amidst market trends, envisioned their
               website as a counter-narrative – a stand against the compromise of
               true art.
@@ -72,7 +72,7 @@ function Journey() {
               Their motivation surpassed self-promotion; it was a commitment to
               preserving the essence of creativity. In a realm saturated with
               content, the website wasn’t just a showcase; it was a curated
-              experience. Zaid and Vikash, like seasoned storytellers, crafted a
+              experience. Zaid and Vikas, like seasoned storytellers, crafted a
               virtual space inviting art enthusiasts to delve into the depths of
               unfiltered creativity. This wasn’t a mere exhibition of their
               work; it was an open invitation for the audience to join them on a
@@ -129,12 +129,12 @@ function Journey() {
           </p>
           <br />
           <time class="underline block mb-2  font-inter leading-none text-black text-lg ">
-            Vikash Mandal
+            Vikas Mandal
           </time>
           <p class="text-base font-inter text-gray-900 ">
-            In the initial strokes of Vikash Mandal’s artistic journey, the
+            In the initial strokes of Vikas Mandal’s artistic journey, the
             canvas of his career unfurled in collaboration with Brush Masters.
-            The allure of art beckoned him, and with a salary of 10,000, Vikash
+            The allure of art beckoned him, and with a salary of 10,000, Vikas
             took his place among the brush-wielding artisans.
           </p>
           <br />
@@ -146,12 +146,12 @@ function Journey() {
           </p>
           <br />
           <p class="text-base font-inter text-gray-900 ">
-            Earning a humble yet invaluable salary, Vikash Mandal embraced the
+            Earning a humble yet invaluable salary, Vikas Mandal embraced the
             challenges and triumphs that came with his association with Brush
             Masters. This initial experience set the tone for his artistic
             trajectory, laying the foundation for the dynamic collaboration that
             now defines his journey. The website stands as a testament to this
-            pivotal moment – the genesis of Vikash Mandal’s artistic expedition,
+            pivotal moment – the genesis of Vikas Mandal’s artistic expedition,
             where a salary of 10,000 marked the humble beginning of a remarkable
             partnership with Brush Masters.
           </p>

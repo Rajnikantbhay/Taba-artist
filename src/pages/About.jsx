@@ -75,8 +75,8 @@ function About() {
           about={
             <div>
               <p>
-                Introducing Vikash Mandal, the co-founder with a unique academic
-                journey. A graduate from Delhi University with a BA, Vikash
+                Introducing Vikas Mandal, the co-founder with a unique academic
+                journey. A graduate from Delhi University with a BA, Vikas
                 pursued his MA through open education. His path in art was far
                 from conventional, fueled by a determination to navigate the
                 challenges of peer pressure that discouraged an artistic
@@ -84,16 +84,16 @@ function About() {
               </p>
               <br />
               <p>
-                Vikash’s story is a testament to choosing passion over
+                Vikas’s story is a testament to choosing passion over
                 conformity. Despite the pressure steering him away from the
                 arts, he embraced his creative spirit. Now, as a co-founder of
-                the website, Vikash invites you to witness a narrative where
+                the website, Vikas invites you to witness a narrative where
                 education and art converge in unexpected ways.
               </p>
               <br />
               <p>
                 Explore his academic chapters, where every qualification is a
-                brushstroke defying societal expectations. Vikash Mandal’s
+                brushstroke defying societal expectations. Vikas Mandal’s
                 journey unfolds on this digital canvas, where art becomes a
                 powerful declaration against the currents of conformity. Join
                 him in celebrating the triumph of individuality and creativity
