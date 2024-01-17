@@ -84,7 +84,7 @@ function About() {
               </p>
               <br />
               <p>
-                Vikas’s story is a testament to choosing passion over
+                Vikas story is a testament to choosing passion over
                 conformity. Despite the pressure steering him away from the
                 arts, he embraced his creative spirit. Now, as a co-founder of
                 the website, Vikas invites you to witness a narrative where
