@@ -2,7 +2,7 @@ import {data} from '../data'
 import { CardDefault } from '../components/Cards'
 import { graphicDesgignData } from '../data'
 import { useEffect } from 'react'
-
+import { Outlet } from 'react-router-dom'
 export default function Work() {
     useEffect(() => {
         const hash = window.location.hash;

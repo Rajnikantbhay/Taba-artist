@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+function Map() {
   return (
 
 <div class="container flex justify-center items-center my-24 mx-auto md:px-6 p-2">
@@ -18,4 +18,4 @@ function Contact() {
   )
 }
 
- export default Contact
+ export default Map

@@ -5,27 +5,26 @@ import {
   CardFooter,
   Typography,
   Button,
-  IconButton
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { Image, Shimmer} from "react-shimmer";
  
-export function CardDefault({ButtonText, infoText, imgLink, title, id, alt, to, name, Knowmore}) {
-
-  const trimText = infoText && infoText.length > 40 ? infoText.slice(0, 100) + '...' : ''
-  return (
+export function CardDefault({ButtonText, imgLink, title, to, name}) {
+  return  (
     <Card className="bg-black border border-white text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
       <CardHeader
         floated={false}
         shadow={false}
         className="m-0 rounded-none w-full h-3/4"
       >
-        <div className="w-full h-full">
-        <img
-          src={imgLink}
-          alt={alt}
-          className="h-full w-full object-cover"
-          loading="lazy"
-        />
+        <div style={{height:'100%', width:'100%'}}>
+
+            <Image
+              src={imgLink}
+              loading="lazy"
+              fallback={<Shimmer width={800} height={300} />}
+              NativeImgProps={{alt:title, className:'h-full w-full object-cover'}}
+            />
         </div>
       </CardHeader>
       <CardBody className="h-1/4">
