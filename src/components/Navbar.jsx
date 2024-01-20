@@ -23,7 +23,7 @@ export default function StcikyNavbar() {
   }, []);
  
   const navList = (
-    <ul className="lg:bg-transparent bg-black right-0 md:static absolute w-full px-4 py-4  mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="lg:bg-transparent bg-[#08416A] right-0 md:static absolute w-full px-4 py-4  mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
@@ -83,7 +83,7 @@ export default function StcikyNavbar() {
   );
  
   return (
-      <Navbar className="sticky top-0 bg-black bg-opacity-100 shadow-none border-2 backdrop-blur-none backdrop-saturate-0 border-black z-[999] h-[10vh] max-w-full rounded-none px-0 pr-6">
+      <Navbar className="shadow-md sticky top-0 bg-[#08416A] bg-opacity-100 ackdrop-blur-none backdrop-saturate-0 border-[#08416A] z-[999] h-[10vh] max-w-full rounded-none px-0 pr-6">
         <div className="w-full  flex items-center justify-between h-full">
           <Link to={'/'} className='flex'>
           <img src={logo} alt="logo of TABA" className='h-12 mr-2 md:ml-8 ml-4' />

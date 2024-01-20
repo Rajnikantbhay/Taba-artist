@@ -8,7 +8,7 @@ export default function ProjectDetails() {
     const cardId = parseInt(id, 10)
     const filteredData = data.find(filterDatafromdata => filterDatafromdata.id === cardId);
     return (
-        <section className='w-full h-full py-12 lg:px-12 bg-black text-white'>
+        <section className='w-full h-full py-12 lg:px-12 text-white'>
         <div className='container px-6 md:flex block'>
         <div className='w-full lg:w-3/5 md:px-6'>
             {filteredData.youtube !=='' ? <Youtube link={filteredData.youtube}/> : (<div><img src={filteredData?.img1} alt=''/></div>)}

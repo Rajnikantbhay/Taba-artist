@@ -24,14 +24,14 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  background-image: url('../src/assests/moon.webp');
-  background-color: black;
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-image: url('../src/assests/moon.webp'); */
+  background-color: #08416A;
+  /* background-size: cover;
+  background-attachment: fixed; */
 }
 
 
-@media only screen and (max-width: 200px) {
+/* @media only screen and (max-width: 200px) {
   body {
     background-image: url('../src/assests/moon_200.webp');
   }
@@ -53,7 +53,7 @@ body {
   body {
     background-image: url('../src/assests/moon_1400.webp');
   }
-}
+} */
 
 
 .img-container{

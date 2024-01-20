@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import mainImg from '../assests/mainimgsmoke.png'
+import mainImg from '../assests/mainImage.webp'
+
 
 function Main() {
     function getDimesion() {

@@ -41,7 +41,7 @@ export default function BookNowPage() {
   };
 
   return (
-    <section className="py-12 lg:px-12 flex lg:flex-row flex-col-reverse bg-black">
+    <section className="py-12 lg:px-12 flex  bg-[#08416A] lg:flex-row flex-col-reverse">
       <div className="container px-6">
         <h1 className="font-redhat text-yellow-100 lg:text-4xl text-2xl">Book now by filling this form</h1>
         <p className="text-[#aaaaaa]">All the fields are <i className="text-white">mandatory</i> and should be filled <i className="text-white">correctly</i></p>

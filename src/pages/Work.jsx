@@ -14,7 +14,7 @@ export default function Work() {
         }
       },[])
     return (
-        <section className="py-12 lg:px-12 bg-black w-full min-h-screen h-full">
+        <section className="py-12 lg:px-12 w-full min-h-screen h-full">
             <div id='muralart' className="container px-6">
                 <>
                 <h1 className='text-yellow-100 lg:text-4xl text-2xl font-redhat'>Mural Arts</h1>
