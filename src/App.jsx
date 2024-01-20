@@ -5,7 +5,7 @@ import ProjectDetails from './pages/ProjectDetails';
 import Map from './pages/Contact';
 import BookNowPage from './pages/BookNowPage';
 // // import {  as Router, Routes, Route, Outlet } from 'react-router-dom';
-// import { ScrollToTop } from './components/ScrollToTop';
+import { ScrollToTop } from './components/ScrollToTop';
 import { GraphicWorkDetails } from './pages/ProjectDetails';
 import Team from './pages/Team';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
@@ -17,7 +17,7 @@ function App() {
   
   return (
     <>
-      
+      <ScrollToTop/>
       <StcikyNavbar/>
       <Outlet/>
       <Footer/>

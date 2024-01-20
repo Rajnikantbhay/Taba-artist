@@ -11,7 +11,7 @@ import { Image, Shimmer} from "react-shimmer";
  
 export function CardDefault({ButtonText, imgLink, title, to, name}) {
   return  (
-    <Card className="bg-black border border-white text-white max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
+    <Card className="bg-white border text-black max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
       <CardHeader
         floated={false}
         shadow={false}
@@ -28,7 +28,7 @@ export function CardDefault({ButtonText, imgLink, title, to, name}) {
         </div>
       </CardHeader>
       <CardBody className="h-1/4">
-        <Typography variant="h4" className="text-[#f1f1f1] font-inter">
+        <Typography variant="h4" className="text-black font-inter">
           {title}
           <p className="text-sm font-inter">{name}</p>
         </Typography>
