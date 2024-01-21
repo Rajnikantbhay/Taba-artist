@@ -30,31 +30,45 @@ body {
   background-attachment: fixed; */
 }
 
+/* .carousel-container  {
+    overflow: hidden;
+    position: relative;
+    min-height: 30rem;
+    width: 100%;
+}
 
-/* @media only screen and (max-width: 200px) {
-  body {
-    background-image: url('../src/assests/moon_200.webp');
+
+.carousel-track {
+  display: flex;
+  position: absolute;
+  left: 0;
+  gap: 1rem;
+  width: 500%;
+  height: 100%;
+  animation: slide 20s linear infinite;
+  background-color: blue;
+  display: flex;
+  &:hover {
+    animation-play-state: paused;
+}
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-track{
+    width: 800%;
+
   }
 }
 
-@media only screen and (min-width: 1041px) {
-  body {
-    background-image: url('../src/assests/moon_1041.webp');
+@keyframes slide {
+  0% {
+    left: 0;
   }
-}
-
-@media only screen and (min-width: 1271px) {
-  body {
-    background-image: url('../src/assests/moon_1271.webp');
-  }
-} 
-
-@media only screen and (min-width: 1400px) {
-  body {
-    background-image: url('../src/assests/moon_1400.webp');
+  100% {
+    left: -100%;
   }
 } */
-
 
 .img-container{
   background-image: url('https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fcarousel3.webp?alt=media&token=fc83739c-653b-4442-ac42-f8926bb387ca');

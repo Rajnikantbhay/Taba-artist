@@ -9,9 +9,9 @@ import {
 import { Link } from "react-router-dom";
 import { Image, Shimmer} from "react-shimmer";
  
-export function CardDefault({ButtonText, imgLink, title, to, name}) {
+export function CardDefault({ButtonText, imgLink, title, to, name, scale}) {
   return  (
-    <Card className="bg-white border text-black max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
+    <Card className={`bg-white border text-black max-w-[22rem] max-h-[24rem] group overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100`}>
       <CardHeader
         floated={false}
         shadow={false}

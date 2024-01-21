@@ -497,6 +497,185 @@ whole.</p></div>),
   },
 ];
 
+export const movingCarouselData = [
+  {
+    id: 2,
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0088.webp?alt=media&token=262eaa11-84ee-42e3-97ed-8155c21e3de3",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0088.webp?alt=media&token=262eaa11-84ee-42e3-97ed-8155c21e3de3",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0091.webp?alt=media&token=c6921fd3-c5de-4279-8c72-1122bff5275c",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0093.webp?alt=media&token=7633ffa8-60c4-4a9d-a6b2-909a27d9874d",
+    img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0101.webp?alt=media&token=56633e5c-6a85-48f0-8479-9659d5305e16",
+    youtube: "",
+    title: "Adwait 2.0",
+    cardtext:'Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.',
+    info: (<div>
+      <p>Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.</p>
+      <br/>
+      <p>The creative effort was done depicting Surya Dev and Asthpath.</p>
+      <br/>
+      <p>Adding to the charm and elephant depicting butterfly at Birla Ghat providing unconventional touch
+complemented by a selfie point.</p>
+<br/>
+<p>At the boundary walls of the Jal Sansthan are the way Adwait 2.0 performed work at showcasing A
+portrait of Bhagat Singh and blending art with culture and historical significance.</p>
+    </div>),
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 3,
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FUntitled%20design%20(5)%20(1).webp?alt=media&token=45c54841-8854-498c-8bc6-5ccee71b22e6",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG20230218191056.webp?alt=media&token=75cbb3b3-b5a0-4182-94bd-ba15789d58ae",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG20230218191107.webp?alt=media&token=1f883b67-1ee9-4d4a-8b27-ae38584c9cbc",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG_20230219_201900.webp?alt=media&token=d5c394c4-4ba9-4438-8603-4df5d8489324",
+    img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG_20230219_201916.webp?alt=media&token=4f3903a2-2116-4025-a37a-392c018a230f",
+    youtube: "",
+    title: "BharatRam Global School",
+    cardtext: "It Became a beautiful place of creativity and art form representing various art forms performed in music and dance room .Art room was transford into creative environment where students can showcase their innovative thoughts. Play room was playful and a visually delight retreat for students which enrich the educational experience.",
+    info: (<div><p>It became a beautiful place of creativity and art form representing various art forms performed in music
+      and dance room .Art room was transformed into creative environment where students can showcase
+      their innovative thoughts.</p> <br/> <p>Play room was playful and a visually delight retreat for students which enrich
+      the educational experience.</p></div>),
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 4,
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0128.webp?alt=media&token=8087927d-593b-47e7-a2dd-568adcdd0f72",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0097.webp?alt=media&token=49d5aa22-7812-470d-a658-d3d173a669c8",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0098.webp?alt=media&token=525bb61d-dca3-41d0-8c54-8497c96b183d",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0104.webp?alt=media&token=54ec83bc-bc04-422d-ad1c-bf4d8510237a",
+    img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0102.webp?alt=media&token=83e575bb-5bee-4684-864b-8b3b93d7e513",
+    youtube: "",
+    title: "Brahma Kumari",
+    cardtext: "Initiated in September 2021, bloomed into peaceful, calm fear for women's meditation in kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture paintings in the environment and contributing to harmony.",
+    info: (<div>Initiated in September 2021, bloomed into peaceful, calm atmosphere for women&#39;s meditation in
+      kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture
+      paintings in the environment and contributing to harmony.</div>),
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 5,
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422180944.webp?alt=media&token=2f1038da-58ee-4595-9428-cf7382ee41c1",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422142609.webp?alt=media&token=81c48d6f-96ab-4658-9d7d-21722fdb196a",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210520.webp?alt=media&token=d86ff0e9-551c-4059-808b-4af6c6bec7e1",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210832.webp?alt=media&token=a665e18f-7080-4ba5-9cde-add441fe0963",
+    img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210723.webp?alt=media&token=e0c765bb-1c08-487f-a5d5-c2303a8e1bff",
+    youtube: "",
+    title: "Martini Cafe",
+    cardtext: "Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This artwork was performed during the year 2023.",
+    info: (<div>Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is
+      also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This
+      artwork was performed during the year 2023.</div>),
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 6,
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0112.webp?alt=media&token=e852a113-a1e3-4e81-a36d-2a0074e19791",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0114.webp?alt=media&token=46096cd8-751a-48bf-91c9-dcefa05c2b88",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0125.webp?alt=media&token=54bf2afb-05d7-45dd-af1e-79e0e67b9fd0",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0124.webp?alt=media&token=6255a0d4-66ad-4e7b-8359-fecf411f73fb",
+    img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0118.webp?alt=media&token=85a27a74-9d5b-4f2e-ae79-f4b9628dcd7d",
+    youtube: "",
+    title: "Adwait",
+    cardtext: "Advait established in December 2018, in Allahabad serving as a mediator which connects art forms representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used was Patchitra, which left a artistic mark on Naini railway station.",
+    info: (<div>
+      <p>Adwaiit established in December 2018, in Allahabad serving as a mediator which connects art forms
+representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used
+was Patchitra, which left a artistic mark on Naini railway station.</p>
+<br/>
+<p>Other work like Nagwaski temple situated beside the river in Allahabad was enhanced with adorning
+the pillar beauty works. Making a visually fascinating environment.</p>
+<br/>
+<p>Represents commitment to infusing various art works into public spaces and creating appealing
+environment.</p>
+    </div>),
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+]
+
 export const teamData = [
   {
     id: 1,

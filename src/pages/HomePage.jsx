@@ -4,8 +4,8 @@ import ContactPage from '../components/ContactPage'
 import Founders from '../components/Founder'
 import Review from '../components/Review'
 import Projects from '../components/Projects'
-import Brands from '../components/Brands'
 import ParnersOfTaba from '../components/PartnersofTaba'
+
 function HomePage() {
   return (
     <div >
@@ -13,7 +13,8 @@ function HomePage() {
       <div>
       <Services/>
       <Projects />
-      {/* <Brands /> */}
+      {/* <MovingWorkCarousel/> */}
+      {/* <Testing/> */}
       <ParnersOfTaba/>
       <ContactPage/>
       <Founders/>
