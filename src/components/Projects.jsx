@@ -5,9 +5,9 @@ import MovingWorkCarousel from "./MovingWorkCarousel"
 
 export default function Projects() {
     return (
-        <section className='w-full  py-12 lg:px-12'>
-            <div className="container px-6 mx-auto">
-            <h1 className='text-white text-2xl mt-2 mb-8 lg:text-4xl font-redhat'>Discover our painted stories – where every project transforms spaces into artful masterpieces. Your vision, our canvas.</h1>
+        <section className='w-full  py-12'>
+            <div className="container">
+            <h1 className='lg:px-16 px-6 text-white text-2xl mt-2 mb-8 lg:text-4xl font-redhat'>Discover our painted stories – where every project transforms spaces into artful masterpieces. Your vision, our canvas.</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <MovingWorkCarousel/>
             </div>

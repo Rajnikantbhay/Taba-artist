@@ -7,12 +7,12 @@ import styled, { keyframes } from "styled-components";
 const AppContainer = styled.div`
   width: 100vw;
   color: #000000;
-
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow:hidden;
+
   mask-image: linear-gradient(
     to right,
     hsl(0 0% 0% / 0),
@@ -20,12 +20,15 @@ const AppContainer = styled.div`
     hsl(0 0% 0% / 1) 90%,
     hsl(0 0% 0% / 0)
   );
+
+  @media (max-width: 750px) {
+    mask-image: none;
+  }
 `;
 
 const Wrapper = styled.div`
   width: 100%;
   height: fit-content;
-
   display: flex;
   align-items: center;
   justify-content: center;
