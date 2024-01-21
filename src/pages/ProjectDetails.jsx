@@ -2,16 +2,26 @@ import { useParams } from 'react-router-dom';
 import {data} from '../data'
 import { Youtube } from '../components/Youtube';
 import { graphicDesgignData } from '../data';
+import { useEffect, useState } from 'react';
+import { Image, Shimmer} from 'react-shimmer';
 
 export default function ProjectDetails() {
+    // const[get,setGet] = useState(false)
     const {id} = useParams();
     const cardId = parseInt(id, 10)
     const filteredData = data.find(filterDatafromdata => filterDatafromdata.id === cardId);
+
+    // useEffect(() => {
+    //     window.addEventListener('resize' , () => {
+    //         window.innerWidth >= 750 && setGet(true)
+    //     })
+    // })
+
     return (
         <section className='w-full h-full py-12 lg:px-12 text-white'>
         <div className='container px-6 md:flex block'>
-        <div className='w-full lg:w-3/5 md:px-6'>
-            {filteredData.youtube !=='' ? <Youtube link={filteredData.youtube}/> : (<div><img src={filteredData?.img1} alt=''/></div>)}
+        <div className='w-full md:w-3/5 md:px-6'>
+            {filteredData.youtube !=='' ? <Youtube link={filteredData.youtube}/> : (<div><Image fallback={<Shimmer  width={300} height={300} />} src={filteredData?.img1} alt=''/></div>)}
             <div className="font-redhat text-3xl tracking-wide my-4">
                 <h1 className="text-white">{filteredData.title}</h1>
             </div>
@@ -19,11 +29,14 @@ export default function ProjectDetails() {
                     {filteredData.info}
             </>
         </div>
-            <div className='w-full  lg:flex-1 space-y-4'>
-                <div className='flex'><img loading='lazy' src={filteredData?.img2} alt={filteredData.title + ' first painting'} /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img3} alt={filteredData.title + ' second painting'} /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img4} alt={filteredData.title + ' third painting'} /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img5} alt={filteredData.title + ' fourth painting'} /></div>
+            <div className='w-full  md:flex-1 space-y-4'>
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img2} alt={filteredData.title + ' first painting'} /></div>
+
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img3} alt={filteredData.title + ' second painting'} /></div>
+
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img4} alt={filteredData.title + ' third painting'} /></div>
+
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img5} alt={filteredData.title + ' fourth painting'} /></div>
             </div>
         </div>
     </section>
@@ -31,6 +44,13 @@ export default function ProjectDetails() {
 }
 
 export const GraphicWorkDetails = () => {
+    // const[get,setGet] = useState(false)
+    // useEffect(() => {
+    //     window.addEventListener('resize' , () => {
+    //         window.innerWidth >= 750 && setGet(true)
+    //     })
+    // })
+
     const {id} = useParams();
     const cardId = parseInt(id, 10)
     const filteredData = graphicDesgignData.find(filterDatafromdata => filterDatafromdata.id === cardId);
@@ -38,7 +58,7 @@ export const GraphicWorkDetails = () => {
         <section className='w-full h-full py-12 lg:px-12 bg-black text-white'>
         <div className='container px-6 md:flex block'>
         <div className='w-full lg:w-3/5 md:px-6'>
-           <div><img src={filteredData?.img1} alt=''/></div>
+           <div><Image fallback={<Shimmer width={300} height={300} />} src={filteredData?.img1} alt=''/></div>
             <div className="font-redhat text-3xl tracking-wide my-4">
                 <h1 className="text-white">{filteredData.title}</h1>
             </div>
@@ -48,9 +68,9 @@ export const GraphicWorkDetails = () => {
             </div> */}
         </div>
             <div className='w-full  lg:flex-1 space-y-4'>
-                <div className='flex'><img loading='lazy' src={filteredData?.img2} alt={filteredData.title + ' first painting'} /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img3} alt={filteredData.title + ' second painting'} /></div>
-                <div className='flex'><img loading='lazy' src={filteredData?.img4} alt={filteredData.title + ' third painting'} /></div>
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img2} alt={filteredData.title + ' first painting'} /></div>
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img3} alt={filteredData.title + ' second painting'} /></div>
+                <div className='flex'><Image fallback={<Shimmer width={300} height={300} />} loading='lazy' src={filteredData?.img4} alt={filteredData.title + ' third painting'} /></div>
             </div>
         </div>
     </section>)

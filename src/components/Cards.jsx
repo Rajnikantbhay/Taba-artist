@@ -53,69 +53,69 @@ export function CardDefault({ButtonText, imgLink, title, to, name, scale}) {
 
 export function Review() {
   return (
-      <section class="bg-white py-12 lg:px-12">
-  <div class="container px-6 ">
-      <h1 class="text-2xl font-redhat text-yello-100 capitalize lg:text-4xl">
-          What our <span class="text-blue-500 ">clients</span> say
+      <section className="bg-white py-12 lg:px-12">
+  <div className="container px-6 ">
+      <h1 className="text-2xl font-redhat text-yello-100 capitalize lg:text-4xl">
+          What our <span className="text-blue-500 ">clients</span> say
       </h1>
 
-      <p class="max-w-2xl mt-2 text-gray-500 font-outfit">
+      <p className="max-w-2xl mt-2 text-gray-500 font-outfit">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error
           alias, adipisci rem similique, at omnis eligendi optio eos harum.
       </p>
   <div className='main w-full flex bg-red-400 items-start'>
-      <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
-          <div class="p-8 border rounded-lg dark:border-gray-700">
-              <p class="leading-loose text-gray-500 dark:text-gray-400">
+      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
+          <div className="p-8 border rounded-lg dark:border-gray-700">
+              <p className="leading-loose text-gray-500 dark:text-gray-400">
                   “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
                   tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
                   aperiam dolorum, obcaecati corrupti aspernatur a.”.
               </p>
 
-              <div class="flex items-center mt-8 -mx-2">
-                  <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+              <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                  <div class="mx-2">
-                      <h1 class="font-semibold text-gray-800 dark:text-white">Robert</h1>
-                      <span class="text-sm text-gray-500">CTO, Robert Consultency</span>
+                  <div className="mx-2">
+                      <h1 className="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                      <span className="text-sm text-gray-500">CTO, Robert Consultency</span>
                   </div>
               </div>
           </div>
       </div>
       {/* 2 */}
-      <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
-          <div class="p-8 border rounded-lg dark:border-gray-700">
-              <p class="leading-loose text-gray-500 dark:text-gray-400">
+      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
+          <div className="p-8 border rounded-lg dark:border-gray-700">
+              <p className="leading-loose text-gray-500 dark:text-gray-400">
                   “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
                   tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
                   aperiam dolorum, obcaecati corrupti aspernatur a.”.
               </p>
 
-              <div class="flex items-center mt-8 -mx-2">
-                  <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+              <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                  <div class="mx-2">
-                      <h1 class="font-semibold text-gray-800 dark:text-white">Robert</h1>
-                      <span class="text-sm text-gray-500">CTO, Robert Consultency</span>
+                  <div className="mx-2">
+                      <h1 className="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                      <span className="text-sm text-gray-500">CTO, Robert Consultency</span>
                   </div>
               </div>
           </div>
       </div>
       {/* 3 */}
-      <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
-          <div class="p-8 border rounded-lg dark:border-gray-700">
-              <p class="leading-loose text-gray-500 dark:text-gray-400">
+      <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
+          <div className="p-8 border rounded-lg dark:border-gray-700">
+              <p className="leading-loose text-gray-500 dark:text-gray-400">
                   “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
                   tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
                   aperiam dolorum, obcaecati corrupti aspernatur a.”.
               </p>
 
-              <div class="flex items-center mt-8 -mx-2">
-                  <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+              <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
 
-                  <div class="mx-2">
-                      <h1 class="font-semibold text-gray-800 dark:text-white">Robert</h1>
-                      <span class="text-sm text-gray-500">CTO, Robert Consultency</span>
+                  <div className="mx-2">
+                      <h1 className="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                      <span className="text-sm text-gray-500">CTO, Robert Consultency</span>
                   </div>
               </div>
           </div>

@@ -1,29 +1,29 @@
 
 import logo from '../assests/companylogocropped.png'
 import { Link } from 'react-router-dom';
-
 import React from "react";
+
 import {
   Navbar,
   MobileNav,
   Typography,
   IconButton,
-  Select,
-  Option
+  Collapse
 } from "@material-tailwind/react";
  
 export default function StcikyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
  
-  React.useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false),
-    );
-  }, []);
+  // React.useEffect(() => {
+  //   window.addEventListener(
+  //     "resize",
+  //     () => window.innerWidth >= 960 && setOpenNav(false),
+  //   );
+  // }, []);
+  const toggleOpen = () => setOpenNav((cur) => !cur);
  
   const navList = (
-    <ul className="lg:bg-transparent bg-[#052131] right-0 md:static absolute w-full px-4 py-4  mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className={`lg:bg-transparent bg-[#052131] right-0 md:static w-full px-4 py-4 mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ${openNav ? 'absolute' : 'hidden'}`}>
       <Typography
         as="li"
         variant="small"
@@ -88,8 +88,6 @@ export default function StcikyNavbar() {
           <Link to={'/'} className='flex'>
           <img src={logo} alt="logo of TABA" className='h-12 mr-2 md:ml-8 ml-4' />
           <Typography
-            as="a"
-            href="#"
             className="text-white cursor-pointer py-1.5 self-center text-2xl font-bold whitespace-nowrap font-redhat"
           >
             TABA
@@ -102,7 +100,7 @@ export default function StcikyNavbar() {
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={false}
-              onClick={() => setOpenNav(!openNav)}
+              onClick={toggleOpen}
             >
               {openNav ? (
                 <svg
@@ -137,9 +135,9 @@ export default function StcikyNavbar() {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           {navList}
-        </MobileNav>
+        </Collapse>
       </Navbar>
   );
 }
