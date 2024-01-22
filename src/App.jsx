@@ -12,6 +12,9 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import StcikyNavbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+import { lazy, Suspense } from 'react';
+
+const AboutComponent = lazy(() => import('./pages/About'))
 
 function App() {
   

@@ -1,6 +1,7 @@
-import paintroller from '../assests/interior.svg'
+import pen_icon from '../assests/pen-icon.webp'
 import exteriorpaint from '../assests/exterior.svg'
 import commercialpaint from '../assests/commercial.svg'
+import sculpture_icon from '../assests/statue-icon.webp'
 import { Link } from 'react-router-dom';
 
 function Services() {
@@ -17,9 +18,9 @@ function Services() {
         <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 w-full text-gray-200 gap-4'>
 
           <div className=" max-w-sm rounded overflow-hidden bg-white shadow-gray-900 shadow-sm">
-            <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={paintroller} loading='lazy' alt="icon of paint roller" /></div>
+            <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={pen_icon} loading='lazy' alt="icon of paint roller" /></div>
             <div className="px-6 pb-4">
-              <div className="font-bold text-xl text-black mb-2">Interior Design</div>
+              <div className="font-bold text-xl text-black mb-2">Sculpture</div>
               <p className="text-black text-base">
                 
               </p>
@@ -57,7 +58,7 @@ function Services() {
 
 
           <div className="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-white ">
-            <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={commercialpaint} loading='lazy' alt="icon of paint palette" /></div>
+            <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={sculpture_icon} loading='lazy' alt="icon of paint palette" /></div>
             <div className="px-6 pb-4">
               <div className="font-bold text-xl text-black mb-2">Graphic Design</div>
               <p className="text-black text-base">
