@@ -26,7 +26,7 @@ function ContactPage() {
         }
     
         const message = `Name: ${data.firstName} ${data.lastName}%0APhone Number: ${data.number}%0AAddress: ${data.address}%0ACity: ${data.city}%0APincode: ${data.pincode}`;
-        const whatsappLink = `https://wa.me/8920237263/?text=${message}`;
+        const whatsappLink = `https://wa.me/9911499221/?text=${message}`;
     
         // Redirect to WhatsApp link
         window.location.href = whatsappLink;
@@ -77,7 +77,7 @@ function ContactPage() {
                     </span>
                     
                     <h2 className="mt-4 text-base font-bold text-gray-100">Phone</h2>
-                    <p className="mt-2 text-sm text-[#e6e6e6] ">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mt-2 text-sm text-[#e6e6e6] ">Mon-Sun from 9am to 9pm.</p>
                     <p className="mt-2 text-sm text-blue-500 ">+91-9911-499221, +91-9560-615712</p>
                 </div>
             </div>
