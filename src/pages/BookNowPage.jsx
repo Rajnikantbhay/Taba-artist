@@ -26,7 +26,7 @@ export default function BookNowPage({title, smallText}) {
     }
 
     const message = `Name: ${data.firstName} ${data.lastName}%0APhone Number: ${data.number}%0AAddress: ${data.address}%0ACity: ${data.city}%0APincode: ${data.pincode}`;
-    const whatsappLink = `https://wa.me/9911499221/?text=${message}`;
+    const whatsappLink = `https://wa.me/9999226846/?text=${message}`;
 
     // Redirect to WhatsApp link
     window.location.href = whatsappLink;
