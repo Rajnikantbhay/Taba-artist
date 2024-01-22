@@ -20,7 +20,7 @@ function Services() {
           <div className=" max-w-sm rounded overflow-hidden bg-white shadow-gray-900 shadow-sm">
             <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={pen_icon} loading='lazy' alt="icon of paint roller" /></div>
             <div className="px-6 pb-4">
-              <div className="font-bold text-xl text-black mb-2">Sculpture</div>
+              <div className="font-bold text-xl text-black mb-2">Graphic Design</div>
               <p className="text-black text-base">
                 
               </p>
@@ -60,7 +60,7 @@ function Services() {
           <div className="max-w-sm rounded overflow-hidden shadow-gray-900 shadow-sm bg-white ">
             <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={sculpture_icon} loading='lazy' alt="icon of paint palette" /></div>
             <div className="px-6 pb-4">
-              <div className="font-bold text-xl text-black mb-2">Graphic Design</div>
+              <div className="font-bold text-xl text-black mb-2">Sculpture</div>
               <p className="text-black text-base">
                 
               </p>

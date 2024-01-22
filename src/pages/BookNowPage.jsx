@@ -1,15 +1,7 @@
-import { Button } from "@material-tailwind/react";
 import { useState } from "react";
-import { Typography } from "@material-tailwind/react";
-import EarthCanvas from '../components/EarthCanvas';
-import { slideIn } from "../components/Motion";
-import { motion } from "framer-motion";
-import StarsCanvas from "../components/Stars";
+import FormComponent from "../components/Form";
 
-
-
-
-export default function BookNowPage() {
+export default function BookNowPage({title, smallText}) {
   const [data, setData] = useState({
     firstName: '',
     lastName: '',
@@ -43,18 +35,17 @@ export default function BookNowPage() {
   return (
     <section className="py-12 lg:px-12 flex  bg-[#052131] lg:flex-row flex-col-reverse">
       <div className="container px-6">
-        <h1 className="font-redhat text-yellow-100 lg:text-4xl text-2xl">Book now by filling this form</h1>
-        <p className="text-[#aaaaaa]">All the fields are <i className="text-white">mandatory</i> and should be filled <i className="text-white">correctly</i></p>
-        <small className="text-[#aaaaaa] font-bold">Currently available in Delhi only</small>
-
-        <form onSubmit={handleSubmit} className="w-full max-w-xl bg-white lg:my-6 my-2 py-6 px-8 rounded-lg">
+        <h1 className="font-redhat text-yellow-100 lg:text-4xl text-2xl">{title}</h1>
+        <div>
+        {smallText}
+        </div>
+        {/* <form onSubmit={handleSubmit} className="w-full max-w-xl bg-white lg:my-6 my-2 py-6 px-8 rounded-lg">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label className="block uppercase tracking-wide text-black  text-xs font-bold mb-2" for="grid-first-name">
                 First Name
               </label>
               <input name="firstName" value={data.firstName} onChange={handleData} className="font-bold appearance-none block w-full bg-gray-200 text-black  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" />
-              {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
             </div>
             <div className="w-full md:w-1/2 px-3">
               <label className="block uppercase tracking-wide text-black  text-xs font-bold mb-2" for="grid-last-name">
@@ -100,7 +91,8 @@ export default function BookNowPage() {
           <Button type="submit" className="md:my-2 bg-[#2196f3]">
             Book now
           </Button>
-        </form>
+        </form> */}
+        <FormComponent onSubmit={handleSubmit} onChnage={handleData} error={error} value={data}/>
       </div>
     </section>
   );

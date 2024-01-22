@@ -1,8 +1,37 @@
-
-
-
+import FormComponent from "./Form";
+import { useState } from "react";
 
 function ContactPage() {
+    const [data, setData] = useState({
+        firstName: '',
+        lastName: '',
+        number: '',
+        address: '',
+        city: '',
+        pincode: ''
+      });
+      const [error, setError] = useState('')
+    
+    
+      const handleData = (e) => {
+        setData({ ...data, [e.target.name]: e.target.value });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        if (!data.firstName || !data.lastName || !data.number || !data.address || !data.city || !data.pincode) {
+          setError('Please fill out the required fields')
+          return;
+        }
+    
+        const message = `Name: ${data.firstName} ${data.lastName}%0APhone Number: ${data.number}%0AAddress: ${data.address}%0ACity: ${data.city}%0APincode: ${data.pincode}`;
+        const whatsappLink = `https://wa.me/8920237263/?text=${message}`;
+    
+        // Redirect to WhatsApp link
+        window.location.href = whatsappLink;
+      };
+
     return (
         <section className="lg:px-12  py-12">
     <div className="container px-6 mx-auto">
@@ -52,8 +81,8 @@ function ContactPage() {
                     <p className="mt-2 text-sm text-blue-500 ">+91-9911-499221, +91-9560-615712</p>
                 </div>
             </div>
-
-            <div className="p-4 py-6 rounded-lg bg-[hsla(0,0%,100%,0.55)] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] md:p-8">
+            <FormComponent onSubmit={handleSubmit} onChnage={handleData} error={error} value={data}/>
+            {/* <div className="p-4 py-6 rounded-lg bg-[hsla(0,0%,100%,0.55)] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] md:p-8">
                 <form>
                     <div className="-mx-2 md:items-center md:flex">
                         <div className="flex-1 px-2">
@@ -81,7 +110,7 @@ function ContactPage() {
                         Send message
                     </button>
                 </form>
-            </div>
+            </div> */}
         </div>
     </div>
 

@@ -1,66 +1,63 @@
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
-import firstLogo from '../assests/brands/renukiran.svg'
-import secondLogo from '../assests/brands/2.svg'
-import thirdLogo from '../assests/brands/3.svg'
-import fourthLogo from '../assests/brands/4.svg'
-import fifthLogo from '../assests/brands/5.svg'
-import seventhLogo from '../assests/brands/7.svg'
+import renukiran from '../assests/brands/renukiran.svg'
+import martini from '../assests/brands/2.svg'
+import beltaDesign from '../assests/brands/3.svg'
+import cozycafe from '../assests/brands/4.svg'
+import adwait from '../assests/brands/5.svg'
+import gyandeviSchool from '../assests/brands/7.svg'
 
 
 function ParnersOfTaba() {
   const row1 = [
-    firstLogo,
-    secondLogo,
-    thirdLogo,
-    fourthLogo,
-    fifthLogo,
-    seventhLogo
+    {name: renukiran, alt:'renukiran foundation'},
+    {name: martini, alt: 'martini'},
+    {name: beltaDesign, alt:'belta Design'},
+    {name: cozycafe, alt:'cozy cafe'},
+    {name: adwait, alt:'adwait'},
+    {name: gyandeviSchool, alt:'Gyan Devi School'},
   ];
 
   const row2 = [
-    firstLogo,
-    secondLogo,
-    thirdLogo,
-    fourthLogo,
-    fifthLogo,
-    seventhLogo
+    {name: renukiran, alt:'renukiran foundation'},
+    {name: martini, alt: 'martini'},
+    {name: beltaDesign, alt:'belta Design'},
+    {name: cozycafe, alt:'cozy cafe'},
+    {name: adwait, alt:'adwait'},
+    {name: gyandeviSchool, alt:'Gyan Devi School'},
   ];
 
   return (
     <AppContainer>
       <Wrapper>
-      {/* <Note>
-              Our Partners
-            </Note> */}
         <Marquee>
           <MarqueeGroup>
-            {row1.map((el) => (
+            {row1.map((brand) => (
               <ImageGroup>
-                <Image src={el} />
+                <Image src={brand.name} alt={brand.alt} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
-            {row1.map((el) => (
+            {row1.map((brand) => (
               <ImageGroup>
-                <Image src={el} />
+                <Image src={brand.name} alt={brand.alt} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
         </Marquee>
         <Marquee>
           <MarqueeGroup2>
-            {row2.map((el) => (
+            {row2.map((brand) => (
               <ImageGroup>
-                <Image src={el} />
+                <Image src={brand.name} alt={brand.alt} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>
           <MarqueeGroup2>
-            {row2.map((el) => (
+            {row2.map((brand) => (
               <ImageGroup>
-                <Image src={el} />
+                <Image src={brand.name} alt={brand.alt} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>
