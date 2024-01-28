@@ -59,7 +59,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/about',
-        element: <About />
+        element:(<Suspense fallback={<h1>Loading...</h1>}><AboutComponent/></Suspense>)
       },
       {
         path: '/team',
