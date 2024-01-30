@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAD-cafe-project%2FIMG-20231229-WA0082.webp?alt=media&token=4a1d5bbf-8dcf-4c25-8b81-574ee3c558db",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAD-cafe-project%2FIMG-20231229-WA0083.webp?alt=media&token=2eecd7d7-f5cf-495a-a1a3-d31810006904",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAD-cafe-project%2FIMG-20231229-WA0083.webp?alt=media&token=2eecd7d7-f5cf-495a-a1a3-d31810006904",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAD-cafe-project%2FIMG-20231229-WA0083.webp?alt=media&token=2eecd7d7-f5cf-495a-a1a3-d31810006904",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAD-cafe-project%2FIMG-20231229-WA0132.webp?alt=media&token=cbd311b5-74fd-4e16-84b1-8726842d1db7",
@@ -35,7 +35,7 @@ export const data = [
 
   {
     id: 2,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0088.webp?alt=media&token=262eaa11-84ee-42e3-97ed-8155c21e3de3",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0100.webp?alt=media&token=f26ada64-160f-4728-91f9-f99c3565e360",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0088.webp?alt=media&token=262eaa11-84ee-42e3-97ed-8155c21e3de3",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0091.webp?alt=media&token=c6921fd3-c5de-4279-8c72-1122bff5275c",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0093.webp?alt=media&token=7633ffa8-60c4-4a9d-a6b2-909a27d9874d",
@@ -140,7 +140,7 @@ portrait of Bhagat Singh and blending art with culture and historical significan
 
   {
     id: 5,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422180944.webp?alt=media&token=2f1038da-58ee-4595-9428-cf7382ee41c1",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230423_224504.webp?alt=media&token=42dd5a36-5a1f-4d4c-8b47-cab08b2804af",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422142609.webp?alt=media&token=81c48d6f-96ab-4658-9d7d-21722fdb196a",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210520.webp?alt=media&token=d86ff0e9-551c-4059-808b-4af6c6bec7e1",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210832.webp?alt=media&token=a665e18f-7080-4ba5-9cde-add441fe0963",
@@ -212,7 +212,7 @@ environment.</p>
 
   {
     id: 7,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_172822036.webp?alt=media&token=09f8b3b8-9d87-4d19-aac2-fd74bd8ce466",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230801_235206.webp?alt=media&token=de63e919-5e8c-478c-849a-9f1ebc8b1f5a",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_173023157.webp?alt=media&token=3330f4b3-3300-4746-b431-387ba5121ea1",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_173144550_HDR.webp?alt=media&token=ff952aac-53e9-49af-9a5e-a7c05f8ee147",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG20230816172649.webp?alt=media&token=a46e4f3e-90ab-45f1-935e-7b6dc2970402",
@@ -249,7 +249,7 @@ reign. Here work was performed in the year August 2023.</p>
 
   {
     id: 8,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230409_161831.webp?alt=media&token=e2064fae-f0c9-442a-8fa1-dc7c86da64d7",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230411_064407.webp?alt=media&token=b6278b03-d0f1-4d5e-bc14-d8ed50aa2e7f",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230409_161957.webp?alt=media&token=91660eeb-65a7-465b-bf3c-a08d246f558e",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230411_064407.webp?alt=media&token=b6278b03-d0f1-4d5e-bc14-d8ed50aa2e7f",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230411_101846.webp?alt=media&token=72a793ae-5a72-4d2c-adda-d13cdd85c1fd",
@@ -356,7 +356,7 @@ visually appealing.</p>
   },
   {
     id: 11,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20201226110837.webp?alt=media&token=6e8b10c5-4e5c-4eb4-839a-3346eafffcc6",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20210122180649.webp?alt=media&token=ac474cd7-f8d1-4252-ad74-db577e9ea0a5",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20201226144537.webp?alt=media&token=152736c3-dc4a-4b8b-aa42-82e90c97891b",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20201226144537.webp?alt=media&token=152736c3-dc4a-4b8b-aa42-82e90c97891b",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20201226144537.webp?alt=media&token=152736c3-dc4a-4b8b-aa42-82e90c97891b",
@@ -392,7 +392,7 @@ culture of Allahabad.
 
   {
     id: 12,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG-20231024-WA0076.webp?alt=media&token=4358be30-2cdd-4556-98f4-91b6e318657b",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG_20230923_190800.webp?alt=media&token=b9cc8652-772b-4751-b17c-748e29301bd9",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG-20231024-WA0076.webp?alt=media&token=4358be30-2cdd-4556-98f4-91b6e318657b",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG20230824205249.webp?alt=media&token=73237659-34fe-429b-8406-0767bb6f2b8d",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG_20230923_190800.webp?alt=media&token=b9cc8652-772b-4751-b17c-748e29301bd9",
@@ -429,9 +429,9 @@ stimulating their education experiences.</p>
 
   {
     id: 13,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0005.webp?alt=media&token=386805e7-5c1d-424f-883d-38f3c7e19f7f",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG_20220228_180720.webp?alt=media&token=8affc3d9-b131-49b0-81f6-b975e7889a86",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0004.webp?alt=media&token=8d182e3c-1e67-4342-bf1b-1b9a12769251",
-    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0006.webp?alt=media&token=06488aec-0f10-4d36-a16c-29f9839c0228",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG_20220228_225115.webp?alt=media&token=90cb5997-25d0-42cb-a686-46d64bb170f7",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0011.webp?alt=media&token=e1450547-6492-49c5-8574-254433171b58",
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0015.webp?alt=media&token=7b4cb0bd-34ac-46c8-a2cd-b954b7af7f45",
     youtube: "",
@@ -463,9 +463,9 @@ rich culture to the public places.</p>
 
   {
     id: 14,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20180916_145538.webp?alt=media&token=892a426f-8ed3-4e10-84c4-5d7d7fdc77a6",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20180903_193907.webp?alt=media&token=88d20135-e826-4748-8c51-d73d56e63130",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20180915_200532.webp?alt=media&token=7938517f-5af7-4ab5-82b2-4fbbbe3ece90",
-    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20181012_124850.webp?alt=media&token=d24911af-ebd9-4f4f-8f31-9ac5ad582c83",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20181012_124821.webp?alt=media&token=b7dbe6b5-08a1-4c71-b192-f2ae32d00ff2",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20181012_124821.webp?alt=media&token=b7dbe6b5-08a1-4c71-b192-f2ae32d00ff2",
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20180903_193907.webp?alt=media&token=88d20135-e826-4748-8c51-d73d56e63130",
     youtube: "",
@@ -477,6 +477,36 @@ a remarkable journey,performing mural arts based on educational theme- depicting
 beautiful work arts and signifying the essence of education, connecting knowledge with art. Showing
 their art works with a meaningful purpose and creating postive impact on individuals and society as a
 whole.</p></div>),
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 15,
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FJDsalwan-project%2FIMG20220330102021.webp?alt=media&token=607b42c3-ff32-45b4-bc9a-c0f39971f491",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FJDsalwan-project%2FIMG-20220401-WA0003.webp?alt=media&token=eb5cf1fc-1b8a-4cce-a254-12766c240467",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FJDsalwan-project%2Fgdsalwan1.webp?alt=media&token=48a5f7ca-a26a-494b-9fe0-cb91302169df",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FJDsalwan-project%2Fgdsalwan2.webp?alt=media&token=ccfe52c1-1bf9-4dea-b686-ba3bc03b8d89",
+    img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FJDsalwan-project%2Fgdsalwan3.webp?alt=media&token=30873f67-2dec-473b-9809-2a75a489babf",
+    youtube: "",
+    title: "GD salwan",
+    cardtext: "",
+    info: (<div></div>),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -605,9 +635,9 @@ portrait of Bhagat Singh and blending art with culture and historical significan
 
   {
     id: 5,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422180944.webp?alt=media&token=2f1038da-58ee-4595-9428-cf7382ee41c1",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422142609.webp?alt=media&token=81c48d6f-96ab-4658-9d7d-21722fdb196a",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG20230422142609.webp?alt=media&token=81c48d6f-96ab-4658-9d7d-21722fdb196a",
-    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210520.webp?alt=media&token=d86ff0e9-551c-4059-808b-4af6c6bec7e1",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230423_224504.webp?alt=media&token=42dd5a36-5a1f-4d4c-8b47-cab08b2804af",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210832.webp?alt=media&token=a665e18f-7080-4ba5-9cde-add441fe0963",
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210723.webp?alt=media&token=e0c765bb-1c08-487f-a5d5-c2303a8e1bff",
     youtube: "",
@@ -674,6 +704,7 @@ environment.</p>
       </svg>
     ),
   },
+
 ]
 
 export const teamData = [
