@@ -325,7 +325,7 @@ visually appealing.</p>
 
   {
     id: 10,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG-20230205-WA0037.webp?alt=media&token=b3595395-bc11-4a19-a0d4-ee3bfc8de585",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG20230205104350.webp?alt=media&token=c3061f17-d334-4319-984f-c7c41563493d",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG-20230205-WA0037.webp?alt=media&token=b3595395-bc11-4a19-a0d4-ee3bfc8de585",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG_20230205_201533.webp?alt=media&token=f99043b2-7f8d-4751-803e-2e8f2b747adc",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG_20230206_183119.webp?alt=media&token=14913079-1923-4a28-817c-bd6d480276a8",
