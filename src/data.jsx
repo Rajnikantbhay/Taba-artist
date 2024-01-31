@@ -10,10 +10,15 @@ export const data = [
     title: "AD Cafe",
     cardtext:
       "Opened in January 2022 a beautiful spot, unique blend of modern to take and peaceful environment have a selfie spots to capture the vibrancy of atmosphere. The wall is decorated with captivating artworks portraying city scenes and moonlight. Cafe stands an peaceful retreat offering a visually fascinating and stimulating environment.",
-    info: (<div>Opened in January 2022 a beautiful spot, unique blend of modern to take and peaceful environment
-      have a selfie spots to capture the vibrancy of atmosphere. The wall is decorated with captivating
-      artworks portraying city scenes and moonlight. Cafe stands an peaceful retreat offering a visually
-      fascinating and stimulating environment.</div>),
+    info: (
+      <div>
+        Opened in January 2022 a beautiful spot, unique blend of modern to take
+        and peaceful environment have a selfie spots to capture the vibrancy of
+        atmosphere. The wall is decorated with captivating artworks portraying
+        city scenes and moonlight. Cafe stands an peaceful retreat offering a
+        visually fascinating and stimulating environment.
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -42,18 +47,30 @@ export const data = [
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0101.webp?alt=media&token=56633e5c-6a85-48f0-8479-9659d5305e16",
     youtube: "",
     title: "Adwait 2.0",
-    cardtext:'Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.',
-    info: (<div>
-      <p>Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.</p>
-      <br/>
-      <p>The creative effort was done depicting Surya Dev and Asthpath.</p>
-      <br/>
-      <p>Adding to the charm and elephant depicting butterfly at Birla Ghat providing unconventional touch
-complemented by a selfie point.</p>
-<br/>
-<p>At the boundary walls of the Jal Sansthan are the way Adwait 2.0 performed work at showcasing A
-portrait of Bhagat Singh and blending art with culture and historical significance.</p>
-    </div>),
+    cardtext:
+      "Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.",
+    info: (
+      <div>
+        <p>
+          Serve as the basis of centre of artistic performance, beautiful
+          artwork performed in Haridwar depicting drawings of Krishna and Balram
+          feet on the banks of Birla Ghat performed between feb to April 2021.
+        </p>
+        <br />
+        <p>The creative effort was done depicting Surya Dev and Asthpath.</p>
+        <br />
+        <p>
+          Adding to the charm and elephant depicting butterfly at Birla Ghat
+          providing unconventional touch complemented by a selfie point.
+        </p>
+        <br />
+        <p>
+          At the boundary walls of the Jal Sansthan are the way Adwait 2.0
+          performed work at showcasing A portrait of Bhagat Singh and blending
+          art with culture and historical significance.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -82,11 +99,23 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG_20230219_201916.webp?alt=media&token=4f3903a2-2116-4025-a37a-392c018a230f",
     youtube: "",
     title: "BharatRam Global School",
-    cardtext: "It Became a beautiful place of creativity and art form representing various art forms performed in music and dance room .Art room was transford into creative environment where students can showcase their innovative thoughts. Play room was playful and a visually delight retreat for students which enrich the educational experience.",
-    info: (<div><p>It became a beautiful place of creativity and art form representing various art forms performed in music
-      and dance room .Art room was transformed into creative environment where students can showcase
-      their innovative thoughts.</p> <br/> <p>Play room was playful and a visually delight retreat for students which enrich
-      the educational experience.</p></div>),
+    cardtext:
+      "It Became a beautiful place of creativity and art form representing various art forms performed in music and dance room .Art room was transford into creative environment where students can showcase their innovative thoughts. Play room was playful and a visually delight retreat for students which enrich the educational experience.",
+    info: (
+      <div>
+        <p>
+          It became a beautiful place of creativity and art form representing
+          various art forms performed in music and dance room .Art room was
+          transformed into creative environment where students can showcase
+          their innovative thoughts.
+        </p>{" "}
+        <br />{" "}
+        <p>
+          Play room was playful and a visually delight retreat for students
+          which enrich the educational experience.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -115,10 +144,16 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0102.webp?alt=media&token=83e575bb-5bee-4684-864b-8b3b93d7e513",
     youtube: "",
     title: "Brahma Kumari",
-    cardtext: "Initiated in September 2021, bloomed into peaceful, calm fear for women's meditation in kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture paintings in the environment and contributing to harmony.",
-    info: (<div>Initiated in September 2021, bloomed into peaceful, calm atmosphere for women&#39;s meditation in
-      kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture
-      paintings in the environment and contributing to harmony.</div>),
+    cardtext:
+      "Initiated in September 2021, bloomed into peaceful, calm fear for women's meditation in kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture paintings in the environment and contributing to harmony.",
+    info: (
+      <div>
+        Initiated in September 2021, bloomed into peaceful, calm atmosphere for
+        women&#39;s meditation in kurukshetra Haryana providing space for
+        spiritual growth and inner reflection. It also has culture paintings in
+        the environment and contributing to harmony.
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -147,10 +182,16 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210723.webp?alt=media&token=e0c765bb-1c08-487f-a5d5-c2303a8e1bff",
     youtube: "",
     title: "Martini Cafe",
-    cardtext: "Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This artwork was performed during the year 2023.",
-    info: (<div>Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is
-      also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This
-      artwork was performed during the year 2023.</div>),
+    cardtext:
+      "Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This artwork was performed during the year 2023.",
+    info: (
+      <div>
+        Atmosphere of the cafe was elevated by performing modern arts would
+        showcased elegance. Spot is also dedicated here as a selfie point
+        enhancing the visual pleasures and experience of customers. This artwork
+        was performed during the year 2023.
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -179,18 +220,29 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0118.webp?alt=media&token=85a27a74-9d5b-4f2e-ae79-f4b9628dcd7d",
     youtube: "",
     title: "Adwait",
-    cardtext: "Advait established in December 2018, in Allahabad serving as a mediator which connects art forms representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used was Patchitra, which left a artistic mark on Naini railway station.",
-    info: (<div>
-      <p>Adwaiit established in December 2018, in Allahabad serving as a mediator which connects art forms
-representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used
-was Patchitra, which left a artistic mark on Naini railway station.</p>
-<br/>
-<p>Other work like Nagwaski temple situated beside the river in Allahabad was enhanced with adorning
-the pillar beauty works. Making a visually fascinating environment.</p>
-<br/>
-<p>Represents commitment to infusing various art works into public spaces and creating appealing
-environment.</p>
-    </div>),
+    cardtext:
+      "Advait established in December 2018, in Allahabad serving as a mediator which connects art forms representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used was Patchitra, which left a artistic mark on Naini railway station.",
+    info: (
+      <div>
+        <p>
+          Adwaiit established in December 2018, in Allahabad serving as a
+          mediator which connects art forms representing beautiful meanings.
+          Here, MahaKumbh wall art was adopted the art form that was used was
+          Patchitra, which left a artistic mark on Naini railway station.
+        </p>
+        <br />
+        <p>
+          Other work like Nagwaski temple situated beside the river in Allahabad
+          was enhanced with adorning the pillar beauty works. Making a visually
+          fascinating environment.
+        </p>
+        <br />
+        <p>
+          Represents commitment to infusing various art works into public spaces
+          and creating appealing environment.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -219,15 +271,24 @@ environment.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_174736651.webp?alt=media&token=1e43b13b-08b3-4520-9ff1-fe88e66032ea",
     youtube: "",
     title: "Akbari Gate",
-    cardtext: "Another demonstration of Glory art form, which is an family restaurant situated in Kamla Nagar Delhi, giving a cultural rich and warm atmosphere providing a delightful experience is to the customers.",
-    info: (<div>
-      <p>Another demonstration of Glory art form, which is an family restaurant situated in Kamla Nagar Delhi,
-giving a cultural rich and warm atmosphere providing a delightful experience to the customers.</p>
-<br/>
-<p>It consist of interior designs that reflects a fusion of modern art with charm of Mughal arts. It&#39;s
-integrated patterns consist of dynamic colours reflecting cultural regioness associated with Akbar&#39;s
-reign. Here work was performed in the year August 2023.</p>
-    </div>),
+    cardtext:
+      "Another demonstration of Glory art form, which is an family restaurant situated in Kamla Nagar Delhi, giving a cultural rich and warm atmosphere providing a delightful experience is to the customers.",
+    info: (
+      <div>
+        <p>
+          Another demonstration of Glory art form, which is an family restaurant
+          situated in Kamla Nagar Delhi, giving a cultural rich and warm
+          atmosphere providing a delightful experience to the customers.
+        </p>
+        <br />
+        <p>
+          It consist of interior designs that reflects a fusion of modern art
+          with charm of Mughal arts. It&#39;s integrated patterns consist of
+          dynamic colours reflecting cultural regioness associated with
+          Akbar&#39;s reign. Here work was performed in the year August 2023.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -256,11 +317,20 @@ reign. Here work was performed in the year August 2023.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fallen-project%2FIMG_20230417_072748.webp?alt=media&token=68448104-0768-4667-9e0a-3ef5d124ec46",
     youtube: "",
     title: "Allen",
-    cardtext: "Allen institute which is well known for there academics excellence also indulge in CSR ( Corporate Social Responsibility) initiative- engaging in meaningful community services and impacting the society positively. Here, the walls are adorn with painting that reflects their devotion to education- centric art providing a positive and inspiring environment for students.",
-    info: (<div><p>Allen institute which is well known for there academics excellence also indulge in CSR ( Corporate Social
-      Responsibility) initiative- engaging in meaningful community services and impacting the society
-      positively. Here, the walls are adorn with painting that reflects their devotion to education- centric art
-      providing a positive and inspiring environment for students.</p></div>),
+    cardtext:
+      "Allen institute which is well known for there academics excellence also indulge in CSR ( Corporate Social Responsibility) initiative- engaging in meaningful community services and impacting the society positively. Here, the walls are adorn with painting that reflects their devotion to education- centric art providing a positive and inspiring environment for students.",
+    info: (
+      <div>
+        <p>
+          Allen institute which is well known for there academics excellence
+          also indulge in CSR ( Corporate Social Responsibility) initiative-
+          engaging in meaningful community services and impacting the society
+          positively. Here, the walls are adorn with painting that reflects
+          their devotion to education- centric art providing a positive and
+          inspiring environment for students.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -289,21 +359,36 @@ reign. Here work was performed in the year August 2023.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FartEffect-project%2FIMG-20231106-WA0065.webp?alt=media&token=68b01820-ace1-4356-b205-e0df0bbecd2b",
     youtube: "",
     title: "Art Effect",
-    cardtext: "Started from 2021 to 2023, consistered of Arts performed at 'Sanjay Van Lake' which witness the beauty of swan and whale arts connecting and reuniting art and nature. Monumental art forms were also performed at the KVS and JNU Headquarters, prominent kal monuments structures like the Red fort and Qutub minar.",
-    info: (<div>
-      <p>Started from 2021 to 2023, consistered of Arts performed at 'Sanjay Van Lake' which witness the beauty
-of swan and whale arts connecting and reuniting art and nature.</p>
-<br/>
-      <p>Monumental art forms were also performed at the KVS and JNU Headquarters, prominent monuments
-structures like the Red fort and Qutub minar.</p>
-<br/>
-<p>Sports related theme art forms were performed at DPS Noida Headquarters, where various art forms
-related to sports like chess was innovatively showcased.</p>
-<br/>
-<p>Vibrant bird Murals also adorning the parking and sport related art forms were also done at Noida
-Sector 89, celebrated the nature and sports collectively making the environment more attractive and
-visually appealing.</p>
-    </div>),
+    cardtext:
+      "Started from 2021 to 2023, consistered of Arts performed at 'Sanjay Van Lake' which witness the beauty of swan and whale arts connecting and reuniting art and nature. Monumental art forms were also performed at the KVS and JNU Headquarters, prominent kal monuments structures like the Red fort and Qutub minar.",
+    info: (
+      <div>
+        <p>
+          Started from 2021 to 2023, consistered of Arts performed at 'Sanjay
+          Van Lake' which witness the beauty of swan and whale arts connecting
+          and reuniting art and nature.
+        </p>
+        <br />
+        <p>
+          Monumental art forms were also performed at the KVS and JNU
+          Headquarters, prominent monuments structures like the Red fort and
+          Qutub minar.
+        </p>
+        <br />
+        <p>
+          Sports related theme art forms were performed at DPS Noida
+          Headquarters, where various art forms related to sports like chess was
+          innovatively showcased.
+        </p>
+        <br />
+        <p>
+          Vibrant bird Murals also adorning the parking and sport related art
+          forms were also done at Noida Sector 89, celebrated the nature and
+          sports collectively making the environment more attractive and
+          visually appealing.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -332,10 +417,18 @@ visually appealing.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FcosyCafe-project%2FIMG20230205152503.webp?alt=media&token=7dbc5a88-b0e2-42e5-9fae-d0f18a2a73bc",
     youtube: "",
     title: "Cosy Cafe",
-    cardtext: "Cozy Cafe a place of captivating glide full blend of comfort and creativity. Mural arts form like pop art which enhances the beauty of wall making it vibrant and visually appealing. The lively colours and bold designs bring life to the walls.",
-    info: (<div><p>Cozy Cafe a place of captivating glide full blend of comfort and creativity. Mural arts form like pop art
-      which enhances the beauty of wall making it vibrant and visually appealing. The lively colours and bold
-      designs bring life to the walls.</p></div>),
+    cardtext:
+      "Cozy Cafe a place of captivating glide full blend of comfort and creativity. Mural arts form like pop art which enhances the beauty of wall making it vibrant and visually appealing. The lively colours and bold designs bring life to the walls.",
+    info: (
+      <div>
+        <p>
+          Cozy Cafe a place of captivating glide full blend of comfort and
+          creativity. Mural arts form like pop art which enhances the beauty of
+          wall making it vibrant and visually appealing. The lively colours and
+          bold designs bring life to the walls.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -363,14 +456,18 @@ visually appealing.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fpromocare-project%2FIMG20210327164329.webp?alt=media&token=de58edbf-ac4d-487a-b7f1-5db101c9e3ad",
     youtube: "",
     title: "Promocare",
-    cardtext: "Sir as a witness for artistic work performed from January to April 2021, beautifying the pillars at New Setu, Janak Setu. Art work contributed to addition of champ to the environment and culture of Allahabad.",
-    info: (<div>
-      <p>
-      It stand as a witness for artistic work performed from January to April 2021, beautifying
-the pillars at New Setu, Janak Setu. Art work contributed to addition of charm to the environment and
-culture of Allahabad.
-      </p>
-    </div>),
+    cardtext:
+      "Sir as a witness for artistic work performed from January to April 2021, beautifying the pillars at New Setu, Janak Setu. Art work contributed to addition of champ to the environment and culture of Allahabad.",
+    info: (
+      <div>
+        <p>
+          It stand as a witness for artistic work performed from January to
+          April 2021, beautifying the pillars at New Setu, Janak Setu. Art work
+          contributed to addition of charm to the environment and culture of
+          Allahabad.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -399,15 +496,24 @@ culture of Allahabad.
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Frenukiran-project%2FIMG_20231104_142146.webp?alt=media&token=54b971c6-b3c9-4571-864f-c56d4e55e68f",
     youtube: "",
     title: "Renukiran Foundation",
-    cardtext: "It is an Non-governmental Organisation which operates on non-profit basis, focuses upon collaborative journey started in 2023, still persist to this day performing CSR(Corporate Social cial Responsibility ) activities engaging in education initiative performed across Delhi NCR schools.",
-    info: (<div>
-      <p>It is an Non-governmental Organisation which operates on non-profit basis, focuses upon collaborative
-journey started in 2023, still persist to this day performing CSR(Corporate Social cial Responsibility )
-activities engaging in education initiative performed across Delhi NCR schools.</p>
-      <br/>
-      <p>While connecting education and art together giving students a visually appealing environment and
-stimulating their education experiences.</p>
-    </div>),
+    cardtext:
+      "It is an Non-governmental Organisation which operates on non-profit basis, focuses upon collaborative journey started in 2023, still persist to this day performing CSR(Corporate Social cial Responsibility ) activities engaging in education initiative performed across Delhi NCR schools.",
+    info: (
+      <div>
+        <p>
+          It is an Non-governmental Organisation which operates on non-profit
+          basis, focuses upon collaborative journey started in 2023, still
+          persist to this day performing CSR(Corporate Social cial
+          Responsibility ) activities engaging in education initiative performed
+          across Delhi NCR schools.
+        </p>
+        <br />
+        <p>
+          While connecting education and art together giving students a visually
+          appealing environment and stimulating their education experiences.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -436,12 +542,18 @@ stimulating their education experiences.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fsambharya-project%2FIMG-20220407-WA0015.webp?alt=media&token=7b4cb0bd-34ac-46c8-a2cd-b954b7af7f45",
     youtube: "",
     title: "Sambharya Foundation",
-    cardtext: "Contracted under government under took between Feburary to April 2022, performed work like adorning the flyover pillars with beautifying and captivating art form of Madhubani. Depicts a touch of rich culture to the public places.",
-    info: (<div>
-      <p>Contracted under government under took between Feburary to April 2022, performed work like
-adorning the flyover pillars with beautifying and captivating art form of Madhubani. Depicts a touch of
-rich culture to the public places.</p>
-    </div>),
+    cardtext:
+      "Contracted under government under took between Feburary to April 2022, performed work like adorning the flyover pillars with beautifying and captivating art form of Madhubani. Depicts a touch of rich culture to the public places.",
+    info: (
+      <div>
+        <p>
+          Contracted under government under took between Feburary to April 2022,
+          performed work like adorning the flyover pillars with beautifying and
+          captivating art form of Madhubani. Depicts a touch of rich culture to
+          the public places.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -470,13 +582,20 @@ rich culture to the public places.</p>
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FschoolOfExcellence-project%2FIMG_20180903_193907.webp?alt=media&token=88d20135-e826-4748-8c51-d73d56e63130",
     youtube: "",
     title: "School of Excellence",
-    cardtext: "In the year 2018, visionary artist like Vikash Mandal and Mohammed Zaid collaborated together shared a remarkable journey,performing mural arts based on educational theme- depicting and meeting beautiful work arts and signifying the essence of education, connecting knowledge with art. Showing their art works with a meaningful purpose and creating postive impact on individuals and society as a whole.",
-    info: (<div><p>
-      In the year 2018, visionary artist like Vikash Mandal and Mohammed Zaid collaborated together shared
-a remarkable journey,performing mural arts based on educational theme- depicting and meeting
-beautiful work arts and signifying the essence of education, connecting knowledge with art. Showing
-their art works with a meaningful purpose and creating postive impact on individuals and society as a
-whole.</p></div>),
+    cardtext:
+      "In the year 2018, visionary artist like Vikash Mandal and Mohammed Zaid collaborated together shared a remarkable journey,performing mural arts based on educational theme- depicting and meeting beautiful work arts and signifying the essence of education, connecting knowledge with art. Showing their art works with a meaningful purpose and creating postive impact on individuals and society as a whole.",
+    info: (
+      <div>
+        <p>
+          In the year 2018, visionary artist like Vikash Mandal and Mohammed
+          Zaid collaborated together shared a remarkable journey,performing
+          mural arts based on educational theme- depicting and meeting beautiful
+          work arts and signifying the essence of education, connecting
+          knowledge with art. Showing their art works with a meaningful purpose
+          and creating postive impact on individuals and society as a whole.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -506,7 +625,7 @@ whole.</p></div>),
     youtube: "",
     title: "GD salwan",
     cardtext: "",
-    info: (<div></div>),
+    info: <div></div>,
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -530,25 +649,37 @@ whole.</p></div>),
 export const movingCarouselData = [
   {
     id: 2,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0088.webp?alt=media&token=262eaa11-84ee-42e3-97ed-8155c21e3de3",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0100.webp?alt=media&token=f26ada64-160f-4728-91f9-f99c3565e360",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0088.webp?alt=media&token=262eaa11-84ee-42e3-97ed-8155c21e3de3",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0091.webp?alt=media&token=c6921fd3-c5de-4279-8c72-1122bff5275c",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0093.webp?alt=media&token=7633ffa8-60c4-4a9d-a6b2-909a27d9874d",
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FAdwait-project2.0%2FIMG-20231229-WA0101.webp?alt=media&token=56633e5c-6a85-48f0-8479-9659d5305e16",
     youtube: "",
     title: "Adwait 2.0",
-    cardtext:'Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.',
-    info: (<div>
-      <p>Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.</p>
-      <br/>
-      <p>The creative effort was done depicting Surya Dev and Asthpath.</p>
-      <br/>
-      <p>Adding to the charm and elephant depicting butterfly at Birla Ghat providing unconventional touch
-complemented by a selfie point.</p>
-<br/>
-<p>At the boundary walls of the Jal Sansthan are the way Adwait 2.0 performed work at showcasing A
-portrait of Bhagat Singh and blending art with culture and historical significance.</p>
-    </div>),
+    cardtext:
+      "Serve as the basis of centre of artistic performance, beautiful artwork performed in Haridwar depicting drawings of Krishna and Balram feet on the banks of Birla Ghat performed between feb to April 2021.",
+    info: (
+      <div>
+        <p>
+          Serve as the basis of centre of artistic performance, beautiful
+          artwork performed in Haridwar depicting drawings of Krishna and Balram
+          feet on the banks of Birla Ghat performed between feb to April 2021.
+        </p>
+        <br />
+        <p>The creative effort was done depicting Surya Dev and Asthpath.</p>
+        <br />
+        <p>
+          Adding to the charm and elephant depicting butterfly at Birla Ghat
+          providing unconventional touch complemented by a selfie point.
+        </p>
+        <br />
+        <p>
+          At the boundary walls of the Jal Sansthan are the way Adwait 2.0
+          performed work at showcasing A portrait of Bhagat Singh and blending
+          art with culture and historical significance.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -577,11 +708,23 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBharatRam-project%2FIMG_20230219_201916.webp?alt=media&token=4f3903a2-2116-4025-a37a-392c018a230f",
     youtube: "",
     title: "BharatRam Global School",
-    cardtext: "It Became a beautiful place of creativity and art form representing various art forms performed in music and dance room .Art room was transford into creative environment where students can showcase their innovative thoughts. Play room was playful and a visually delight retreat for students which enrich the educational experience.",
-    info: (<div><p>It became a beautiful place of creativity and art form representing various art forms performed in music
-      and dance room .Art room was transformed into creative environment where students can showcase
-      their innovative thoughts.</p> <br/> <p>Play room was playful and a visually delight retreat for students which enrich
-      the educational experience.</p></div>),
+    cardtext:
+      "It Became a beautiful place of creativity and art form representing various art forms performed in music and dance room .Art room was transford into creative environment where students can showcase their innovative thoughts. Play room was playful and a visually delight retreat for students which enrich the educational experience.",
+    info: (
+      <div>
+        <p>
+          It became a beautiful place of creativity and art form representing
+          various art forms performed in music and dance room .Art room was
+          transformed into creative environment where students can showcase
+          their innovative thoughts.
+        </p>{" "}
+        <br />{" "}
+        <p>
+          Play room was playful and a visually delight retreat for students
+          which enrich the educational experience.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -610,10 +753,16 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FBrahmaKumaris-project%2FIMG-20231229-WA0102.webp?alt=media&token=83e575bb-5bee-4684-864b-8b3b93d7e513",
     youtube: "",
     title: "Brahma Kumari",
-    cardtext: "Initiated in September 2021, bloomed into peaceful, calm fear for women's meditation in kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture paintings in the environment and contributing to harmony.",
-    info: (<div>Initiated in September 2021, bloomed into peaceful, calm atmosphere for women&#39;s meditation in
-      kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture
-      paintings in the environment and contributing to harmony.</div>),
+    cardtext:
+      "Initiated in September 2021, bloomed into peaceful, calm fear for women's meditation in kurukshetra Haryana providing space for spiritual growth and inner reflection. It also has culture paintings in the environment and contributing to harmony.",
+    info: (
+      <div>
+        Initiated in September 2021, bloomed into peaceful, calm atmosphere for
+        women&#39;s meditation in kurukshetra Haryana providing space for
+        spiritual growth and inner reflection. It also has culture paintings in
+        the environment and contributing to harmony.
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -642,10 +791,16 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2FMartiniCafe-project%2FIMG_20230422_210723.webp?alt=media&token=e0c765bb-1c08-487f-a5d5-c2303a8e1bff",
     youtube: "",
     title: "Martini Cafe",
-    cardtext: "Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This artwork was performed during the year 2023.",
-    info: (<div>Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is
-      also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This
-      artwork was performed during the year 2023.</div>),
+    cardtext:
+      "Atmosphere of the cafe was elevated by performing modern arts would showcased elegance. Spot is also dedicated here as a selfie point enhancing the visual pleasures and experience of customers. This artwork was performed during the year 2023.",
+    info: (
+      <div>
+        Atmosphere of the cafe was elevated by performing modern arts would
+        showcased elegance. Spot is also dedicated here as a selfie point
+        enhancing the visual pleasures and experience of customers. This artwork
+        was performed during the year 2023.
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -674,18 +829,29 @@ portrait of Bhagat Singh and blending art with culture and historical significan
     img5: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fadwait-project%2FIMG-20231229-WA0118.webp?alt=media&token=85a27a74-9d5b-4f2e-ae79-f4b9628dcd7d",
     youtube: "",
     title: "Adwait",
-    cardtext: "Advait established in December 2018, in Allahabad serving as a mediator which connects art forms representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used was Patchitra, which left a artistic mark on Naini railway station.",
-    info: (<div>
-      <p>Adwaiit established in December 2018, in Allahabad serving as a mediator which connects art forms
-representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used
-was Patchitra, which left a artistic mark on Naini railway station.</p>
-<br/>
-<p>Other work like Nagwaski temple situated beside the river in Allahabad was enhanced with adorning
-the pillar beauty works. Making a visually fascinating environment.</p>
-<br/>
-<p>Represents commitment to infusing various art works into public spaces and creating appealing
-environment.</p>
-    </div>),
+    cardtext:
+      "Advait established in December 2018, in Allahabad serving as a mediator which connects art forms representing beautiful meanings. Here, MahaKumbh wall art was adopted the art form that was used was Patchitra, which left a artistic mark on Naini railway station.",
+    info: (
+      <div>
+        <p>
+          Adwaiit established in December 2018, in Allahabad serving as a
+          mediator which connects art forms representing beautiful meanings.
+          Here, MahaKumbh wall art was adopted the art form that was used was
+          Patchitra, which left a artistic mark on Naini railway station.
+        </p>
+        <br />
+        <p>
+          Other work like Nagwaski temple situated beside the river in Allahabad
+          was enhanced with adorning the pillar beauty works. Making a visually
+          fascinating environment.
+        </p>
+        <br />
+        <p>
+          Represents commitment to infusing various art works into public spaces
+          and creating appealing environment.
+        </p>
+      </div>
+    ),
     ButtonText: (
       <svg
         className="w-6 h-6"
@@ -704,8 +870,7 @@ environment.</p>
       </svg>
     ),
   },
-
-]
+];
 
 export const teamData = [
   {
