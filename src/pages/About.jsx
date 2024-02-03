@@ -18,12 +18,12 @@ function About() {
   }, []);
   return (
     <section className="py-12 lg:px-12">
-      <div class="container px-6">
+      <div className="container px-6">
         <div>
-          <h1 class="lg:text-4xl text-2xl font-redhat text-yellow-100">
+          <h1 className="lg:text-4xl text-2xl font-redhat text-yellow-100">
             About Taba
           </h1>
-          {/* <p class="mb-6 text-sm md:text-base text-[#f1f1f1]">
+          {/* <p className="mb-6 text-sm md:text-base text-[#f1f1f1]">
             Here at Flowbite we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p> */}

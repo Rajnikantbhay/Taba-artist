@@ -11,8 +11,9 @@ function HomePage() {
     <div >
       <Main/>
       <div>
-      <Services/>
       <Projects />
+      <Services/>
+     
       {/* <MovingWorkCarousel/> */}
       {/* <Testing/> */}
       <ParnersOfTaba/>

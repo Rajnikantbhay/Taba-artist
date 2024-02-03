@@ -3,17 +3,17 @@ import paintTube from '../assests/painttubeabout.svg'
 function Journey() {
   return (
     <section className="shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] w-full bg-[hsla(0,0%,100%,1)] px-6 py-6 rounded-lg">
-      <ol class="relative border-s border-gray-200 ">
-        <li class="mb-10 ms-6">
-          <span class="absolute flex items-center justify-center bg-blue-100 rounded-full -start-3 ring-8 ring-white">
+      <ol className="relative border-s border-gray-200 ">
+        <li className="mb-10 ms-6">
+          <span className="absolute flex items-center justify-center bg-blue-100 rounded-full -start-3 ring-8 ring-white">
            <img src={paintTube} alt={'paint tube'} className='w-6 h-6' />
           </span>
-          <h3 class="text-2xl flex items-center mb-1  font-redhat text-black ">
+          <h3 className="text-2xl flex items-center mb-1  font-redhat text-black ">
             Their passion towards art
            
           </h3>
            
-          <div class="mb-4 text-base font-inter text-gray-900 ">
+          <div className="mb-4 text-base font-inter text-gray-900 ">
             <p>
               In the kaleidoscopic world of school, Mohammed Zaid and Vikas
               Mandal weren’t just students; they were the artistic architects of
@@ -47,15 +47,15 @@ function Journey() {
             </p>
           </div>
         </li>
-        <li class="mb-10 ms-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
+        <li className="mb-10 ms-6">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
           <img src={paintTube} alt={'paint tube'} className='w-6 h-6' />
           </span>
-          <h3 class="text-2xl mb-1  font-redhat text-black ">
+          <h3 className="text-2xl mb-1  font-redhat text-black ">
             Storyline (Idea and reason behind TABA)
           </h3>
            
-          <div class="text-base font-inter text-gray-900 ">
+          <div className="text-base font-inter text-gray-900 ">
             <p>
               In the age of pixels and screens, the artistic souls of Mohammed
               Zaid and Vikas Mandal converged to birth a vision – a website
@@ -85,18 +85,18 @@ function Journey() {
             </p>
           </div>
         </li>
-        <li class="ms-6">
-          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
+        <li className="ms-6">
+          <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
           <img src={paintTube} alt={'paint tube'} className='w-6 h-6' />
           </span>
-          <h3 class="text-2xl mb-1  font-redhat text-black ">
+          <h3 className="text-2xl mb-1  font-redhat text-black ">
             First work they did
           </h3>
-           <time class="underline block mb-2  font-inter leading-none text-black  text-lg">
+           <time className="underline block mb-2  font-inter leading-none text-black  text-lg">
             Mohammad Zaid
           </time>
           <br />
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             In the tapestry of Mohammed Zaid’s journey, the first threads were
             woven in the world of textiles. Immersed in the intricate patterns
             of his uncle’s textile shop, Zaid absorbed the nuances of the trade.
@@ -104,14 +104,14 @@ function Journey() {
             wealth of knowledge acquired in those colorful aisles.
           </p>
           <br />
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             However, destiny had a different canvas for Zaid. Amidst the bolts
             of fabric and hues of dyes, the latent passion for art began to
             unfurl. The desire to paint, to create, to transform walls into
             masterpieces quietly seeped into his heart.
           </p>
           <br />
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             Haridwar, with its spiritual aura, became the backdrop for Zaid’s
             artistic debut. With a salary of 20,000, earned through his
             dedication to wall painting, Zaid took the first bold strokes
@@ -119,7 +119,7 @@ function Journey() {
             the textures of art, and the walls of Haridwar became his canvas.
           </p>
           <br />
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             The transition from textiles to wall painting wasn’t just a career
             shift; it was a metamorphosis of passion. Zaid’s journey,
             intricately woven with threads of textiles and strokes of art,
@@ -128,24 +128,24 @@ function Journey() {
             diverse tapestry of experiences that shape an artist’s soul.
           </p>
           <br />
-          <time class="underline block mb-2  font-inter leading-none text-black text-lg ">
+          <time className="underline block mb-2  font-inter leading-none text-black text-lg ">
             Vikas Mandal
           </time>
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             In the initial strokes of Vikas Mandal’s artistic journey, the
             canvas of his career unfurled in collaboration with Brush Masters.
             The allure of art beckoned him, and with a salary of 10,000, Vikas
             took his place among the brush-wielding artisans.
           </p>
           <br />
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             This first venture wasn’t just a job; it was an immersion into the
             realm of Brush Masters, an opportunity to refine his skills under
             the guidance of seasoned artists. The strokes of his brush became a
             harmonious dance, blending with the expertise of the masters.
           </p>
           <br />
-          <p class="text-base font-inter text-gray-900 ">
+          <p className="text-base font-inter text-gray-900 ">
             Earning a humble yet invaluable salary, Vikas Mandal embraced the
             challenges and triumphs that came with his association with Brush
             Masters. This initial experience set the tone for his artistic
