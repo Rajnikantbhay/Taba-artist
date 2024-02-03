@@ -33,7 +33,7 @@ function Services() {
           <div className=" max-w-sm rounded overflow-hidden bg-white shadow-gray-900 shadow-sm">
             <div className='w-full flex justify-start px-6 py-4'><img className="h-16 w-16" src={exteriorpaint} loading='lazy' alt="icon of paint palette" /></div>
             <div className="px-6 pb-4">
-              <div className="font-bold text-xl text-black mb-2">Interior Design</div>
+              <div className="font-bold text-xl text-black mb-2">Canvas Painting</div>
               <p className="text-black text-base">
                 
               </p>

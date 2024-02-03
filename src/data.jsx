@@ -264,7 +264,7 @@ export const data = [
 
   {
     id: 7,
-    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230801_235206.webp?alt=media&token=de63e919-5e8c-478c-849a-9f1ebc8b1f5a",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FakabariGatePic.webp?alt=media&token=6d569b4f-1e59-4c4b-ad23-88000552ccb6",
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_173023157.webp?alt=media&token=3330f4b3-3300-4746-b431-387ba5121ea1",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG_20230816_173144550_HDR.webp?alt=media&token=ff952aac-53e9-49af-9a5e-a7c05f8ee147",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/media%2Fprojects%20Pics%2Fakbarigate-project%2FIMG20230816172649.webp?alt=media&token=a46e4f3e-90ab-45f1-935e-7b6dc2970402",
