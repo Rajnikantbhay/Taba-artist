@@ -883,7 +883,7 @@ export const teamData = [
   {
     id: 2,
     name: "Irfan ali",
-    title: "Designer",
+    title: "Chotu master",
     img: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F3.webp?alt=media&token=ce0dfb90-a496-4d10-aeb9-ef3bc03ce3c8",
   },
 
@@ -904,14 +904,14 @@ export const teamData = [
   {
     id: 5,
     name: "Naveen",
-    title: "Designer",
+    title: "Realist King",
     img: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2F2.webp?alt=media&token=639f0e93-3856-44df-ba83-c7b89918316c",
   },
 
   {
     id: 6,
     name: "Sanjay Baghel",
-    title: "All rounder",
+    title: "Stroke master",
     img: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/team%2FUntitled%20design%20(2).webp?alt=media&token=5c7260b6-760f-413b-86a6-8e5ce1fc3d17",
   },
 
@@ -931,6 +931,166 @@ export const graphicDesgignData = [
     img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F1.webp?alt=media&token=60671c7e-41a4-4ed1-a78c-32e27e43f79a",
     img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F3.webp?alt=media&token=a31c0229-e274-4839-8372-e1d277c7e95b",
     img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/graphic%20design%20work%2F4.webp?alt=media&token=e4e91c21-7577-48a4-b50b-dcbffde70f87",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+];
+
+export const sculptureData = [
+  {
+    id: 1,
+    title: "Sculpture 1",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20230606_070035357.MP.webp?alt=media&token=32d252d5-60c1-4a19-b750-d57907b3b29f",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20230602_111810068.MP.webp?alt=media&token=79348c4d-8c96-4a6f-917f-350b29dc9a5e",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20230602_111827158.MP.webp?alt=media&token=44311bdc-40b6-4ef0-b84e-9a9c95a4e47e",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20230603_052757062.webp?alt=media&token=3d673540-69cd-4afd-814c-04e28ba33ec5",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 2,
+    title: "Sculpture 2",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20221205_111102902.MP.webp?alt=media&token=14e18d2c-4f44-4c29-818a-6aaf37de49b6",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20221205_111055863.webp?alt=media&token=375d6af7-660e-43bc-8818-897f243cf6a0",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FPXL_20221205_111016649.webp?alt=media&token=a2a53818-935f-44c4-bd27-01767ba336ba",
+    img4: "",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 3,
+    title: "Sculpture 3",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190511_013809.webp?alt=media&token=35444106-9634-4749-8bec-41bb061995d9",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190414_191424.webp?alt=media&token=7e4865eb-77af-4545-b7db-c541b32b1ba5",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190409_001909.webp?alt=media&token=aa7ca823-e2a0-4916-a4cd-98bf9b390e1d",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190409_001858.webp?alt=media&token=511a420a-1a05-4bfd-b741-deeb149dded3",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 4,
+    title: "Sculpture 4",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG-20190403-WA0028.webp?alt=media&token=79b312bb-ab03-4823-8c52-b5dfca342799",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190402_171919.webp?alt=media&token=b31eecab-84dd-4346-b69b-e666fd6b314a",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190331_205803.webp?alt=media&token=003571fc-4f2e-4d63-a974-86b35b7bd100",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/sculpture%2FIMG_20190331_205753.webp?alt=media&token=ebc359a7-2e66-4b1f-9619-b11c4241630e",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+];
+
+export const paintingData = [
+  {
+    id: 1,
+    title: "Painting 1",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FWhatsApp%20Image%202024-01-30%20at%2015.06.10%20(1).webp?alt=media&token=b38b6909-7696-48ca-98ff-920c9e8ac21d",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FWhatsApp%20Image%202024-01-30%20at%2015.06.10.webp?alt=media&token=8545124a-ef16-4ca7-abfe-1fbe4e62214a",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FPicsart_23-11-18_12-11-38-436.webp?alt=media&token=0fac4eaa-30a4-4adb-b5d3-263d968616bf",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FPicsart_23-06-21_15-51-01-285.webp?alt=media&token=1d85e8ce-2a1b-4800-b301-8f9ee59514fd",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+
+  {
+    id: 2,
+    title: "Painting 2",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FWhatsApp%20Image%202024-01-30%20at%2015.06.12%20(2).webp?alt=media&token=1e32ee2e-a890-4f54-a8a1-c2c8eb97f0ea",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FWhatsApp%20Image%202024-01-30%20at%2015.06.12.webp?alt=media&token=cf1b1652-406d-4eaa-8dab-f932e6b7a7d1",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FWhatsApp%20Image%202024-01-30%20at%2015.06.12%20(1).webp?alt=media&token=beb3911c-dda4-4196-af23-337290432ee5",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/Painting%2FWhatsApp%20Image%202024-01-30%20at%2015.06.11.webp?alt=media&token=fb0efdc6-bb92-42c3-8edc-2fb141df0fc3",
     ButtonText: (
       <svg
         className="w-6 h-6"
