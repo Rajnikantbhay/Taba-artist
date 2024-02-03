@@ -75,9 +75,9 @@ export default function Work() {
             Sculpture work
           </h1>
           <p className="text-white font-inter mb-4">
-            Bring your ideas to life with our graphic design magic – where every
-            image tells a story and makes your <br />
-            brand stand out with a pop of creativity
+            A great sculpture can be appreciated from all angles, just like a
+            great mind can be
+            <br /> appreciated from all perspectives
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
             {sculptureData.map((sculpture) => {
@@ -101,9 +101,9 @@ export default function Work() {
             Painting work
           </h1>
           <p className="text-white font-inter mb-4">
-            Bring your ideas to life with our graphic design magic – where every
-            image tells a story and makes your <br />
-            brand stand out with a pop of creativity
+            Every artist dips his brush in his own soul, and paints his own{" "}
+            <br />
+            nature into his pictures.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
             {paintingData.map((painting) => {
@@ -127,9 +127,9 @@ export default function Work() {
             Portrait work
           </h1>
           <p className="text-white font-inter mb-4">
-            Bring your ideas to life with our graphic design magic – where every
-            image tells a story and makes your <br />
-            brand stand out with a pop of creativity
+            Every portrait that is painted with feeling is a portrait of the
+            <br />
+            artist, not of the sitter.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
             {portraitData.map((portrait) => {
