@@ -1110,3 +1110,31 @@ export const paintingData = [
     ),
   },
 ];
+
+export const portraitData = [
+  {
+    id: 1,
+    title: "Portrait 1",
+    img1: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/potrait%2FPicsart_23-06-21_15-04-17-441.webp?alt=media&token=f04da768-4ff8-4a07-9726-77862e1553e6",
+    img2: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/potrait%2FIMG-20231118-WA0015.webp?alt=media&token=a7090ce5-1af9-46ae-ae46-32d27d3cd64e",
+    img3: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/potrait%2FIMG-20211128-WA0001~2.webp?alt=media&token=cabe25e7-dda7-43ce-b61d-fa508ecdf4ff",
+    img4: "https://firebasestorage.googleapis.com/v0/b/taba-5c32a.appspot.com/o/potrait%2FPicsart_23-06-21_02-51-57-074.webp?alt=media&token=1813bd6d-f207-4b2d-9d21-fd8b5f211121",
+    ButtonText: (
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        Name="w-6 h-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+        />
+      </svg>
+    ),
+  },
+];

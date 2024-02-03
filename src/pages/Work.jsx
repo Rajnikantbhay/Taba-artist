@@ -1,4 +1,4 @@
-import { data } from "../data";
+import { data, portraitData } from "../data";
 import { CardDefault } from "../components/Cards";
 import { graphicDesgignData } from "../data";
 import { useEffect } from "react";
@@ -116,6 +116,32 @@ export default function Work() {
                   id={painting.id}
                   key={painting.id}
                   imgLink={painting?.img1}
+                />
+              );
+            })}
+          </div>
+        </div>
+
+        <div id="portraitwork">
+          <h1 className="text-yellow-100 lg:text-4xl text-2xl font-redhat mt-8">
+            Portrait work
+          </h1>
+          <p className="text-white font-inter mb-4">
+            Bring your ideas to life with our graphic design magic – where every
+            image tells a story and makes your <br />
+            brand stand out with a pop of creativity
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
+            {portraitData.map((portrait) => {
+              return (
+                <CardDefault
+                  title={portrait.title}
+                  scale={"sm:hover:scale-110"}
+                  to={`/ourwork/portraitwork/${portrait.id}`}
+                  ButtonText={portrait.ButtonText}
+                  id={portrait.id}
+                  key={portrait.id}
+                  imgLink={portrait?.img1}
                 />
               );
             })}

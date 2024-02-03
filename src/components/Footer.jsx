@@ -13,6 +13,7 @@ const LINKS = [
       { item: "Graphic Design", href: "/ourwork#graphicwork" },
       { item: "Sculptures", href: "/ourwork#sculpturework" },
       { item: "Painting", href: "/ourwork#paintingwork" },
+      { item: "Portrait", href: "/ourwork#portraitwork" },
     ],
   },
   {

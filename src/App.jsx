@@ -2,6 +2,7 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import ProjectDetails, {
   PaintingWorkDetails,
+  PortraitWorkDetails,
   SculptureWorkDetails,
 } from "./pages/ProjectDetails";
 import Map from "./pages/Contact";
@@ -92,6 +93,10 @@ export const router = createBrowserRouter([
       {
         path: "ourwork/paintingwork/:id",
         element: <PaintingWorkDetails />,
+      },
+      {
+        path: "ourwork/portraitwork/:id",
+        element: <PortraitWorkDetails />,
       },
     ],
   },
